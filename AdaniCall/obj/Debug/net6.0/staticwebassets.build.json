@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ixIjixAboic3LBl5OeaN7CFCDa/mbX2Igz2vrT1jMyk=",
+  "Hash": "mZAGpCjP9kw4P1Qqd85bU2b55RQtVy8QgaJP3bir8iI=",
   "Source": "AdaniCall",
   "BasePath": "_content/AdaniCall",
   "Mode": "Default",
@@ -2021,40 +2021,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style_landing.css"
-    },
-    {
-      "Identity": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\dist\\bundle.js",
-      "SourceId": "AdaniCall",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\",
-      "BasePath": "_content/AdaniCall",
-      "RelativePath": "dist/bundle.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\dist\\bundle.js"
-    },
-    {
-      "Identity": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\dist\\client.js",
-      "SourceId": "AdaniCall",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\",
-      "BasePath": "_content/AdaniCall",
-      "RelativePath": "dist/client.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\dist\\client.js"
     },
     {
       "Identity": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\favicon.ico",

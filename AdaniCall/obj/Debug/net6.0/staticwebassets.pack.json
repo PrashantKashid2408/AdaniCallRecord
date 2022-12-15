@@ -769,14 +769,6 @@
       "PackagePath": "staticwebassets\\css\\style_landing.css"
     },
     {
-      "Id": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\dist\\bundle.js",
-      "PackagePath": "staticwebassets\\dist\\bundle.js"
-    },
-    {
-      "Id": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\dist\\client.js",
-      "PackagePath": "staticwebassets\\dist\\client.js"
-    },
-    {
       "Id": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

@@ -63,7 +63,7 @@ function button_callback() {
                     GetAvailableAgent("face");
                     if ($("#callee-acs-user-id").val() != "") {
                         faceSpotted = true;
-                      //  $("#initialize-call-agent").click();
+                       // $("#initialize-call-agent").click();
                         startVisible = false;
                         console.log("this is face spotted:");
                     }
@@ -90,9 +90,9 @@ function CheckStart() {
                         $("#start-call-button").removeClass("btn-disable");
                         $("#start-call-button").prop("disabled", false);
                     }
-                  //  $("#start-call-button").click();
-                    $("#start-call-button").addClass("btn-disable");
-                    $("#start-call-button").prop("disabled", true);
+                    //$("#start-call-button").click();
+                 //   $("#start-call-button").addClass("btn-disable");
+                  //  $("#start-call-button").prop("disabled", true);
                     $("#cnFaceDetect").hide();
                     console.log("this is CheckStart():");
                 }
@@ -101,15 +101,15 @@ function CheckStart() {
     }
 }
 
-//setInterval(CheckStart, 5000);
+setInterval(CheckStart, 4000);
 
 function LoadCall() {
     if (LoadCallCount > LoadCountAllowed) {
         if (LoadCallCount > LoadCountAllowed) {
             FreeAgent($("#callee-acs-user-id").val());
-          //  setTimeout(function () {
-               // window.location.href = "/Landing/Index";
-          //  }, 5000);
+            setTimeout(function () {
+                window.location.href = "/Landing/Index";
+            }, 5000);
         }
     } else {
         if (!faceSpotted && !wasCallConnected) {
