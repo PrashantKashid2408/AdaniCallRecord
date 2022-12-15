@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaniCall", "AdaniCall\AdaniCall.csproj", "{DF4FE691-AE47-42B8-A044-1450A252D817}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaniCall.Business", "AdaniCall.Business\AdaniCall.Business.csproj", "{9CD54FE8-8B0E-43A7-A8E0-BA324CFF1703}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaniCall.Entity", "AdaniCall.Entity\AdaniCall.Entity.csproj", "{EB08491C-68AE-41E7-BCDA-8543DDAD45BB}"
@@ -13,16 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaniCall.Resources", "Adan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaniCall.Utility", "AdaniCall.Utility\AdaniCall.Utility.csproj", "{494B14FC-3A92-478E-9D11-FECF998F1E21}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaniCall", "AdaniCall\AdaniCall.csproj", "{EB09BD44-4949-4651-8302-D1CCE38AF076}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF4FE691-AE47-42B8-A044-1450A252D817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF4FE691-AE47-42B8-A044-1450A252D817}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF4FE691-AE47-42B8-A044-1450A252D817}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF4FE691-AE47-42B8-A044-1450A252D817}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9CD54FE8-8B0E-43A7-A8E0-BA324CFF1703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9CD54FE8-8B0E-43A7-A8E0-BA324CFF1703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD54FE8-8B0E-43A7-A8E0-BA324CFF1703}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{494B14FC-3A92-478E-9D11-FECF998F1E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{494B14FC-3A92-478E-9D11-FECF998F1E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{494B14FC-3A92-478E-9D11-FECF998F1E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB09BD44-4949-4651-8302-D1CCE38AF076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB09BD44-4949-4651-8302-D1CCE38AF076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB09BD44-4949-4651-8302-D1CCE38AF076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB09BD44-4949-4651-8302-D1CCE38AF076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

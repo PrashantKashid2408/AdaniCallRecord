@@ -34,3 +34,15 @@ D:\AdaniCall\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.dll
 D:\AdaniCall\AdaniCall.Utility\obj\Debug\net6.0\refint\AdaniCall.Utility.dll
 D:\AdaniCall\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.pdb
 D:\AdaniCall\AdaniCall.Utility\obj\Debug\net6.0\ref\AdaniCall.Utility.dll
+D:\AdaniCallRecord\AdaniCall.Utility\bin\Debug\net6.0\AdaniCall.Utility.deps.json
+D:\AdaniCallRecord\AdaniCall.Utility\bin\Debug\net6.0\AdaniCall.Utility.dll
+D:\AdaniCallRecord\AdaniCall.Utility\bin\Debug\net6.0\AdaniCall.Utility.pdb
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.csproj.AssemblyReference.cache
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.AssemblyInfoInputs.cache
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.AssemblyInfo.cs
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.csproj.CoreCompileInputs.cache
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.dll
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\refint\AdaniCall.Utility.dll
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\AdaniCall.Utility.pdb
+D:\AdaniCallRecord\AdaniCall.Utility\obj\Debug\net6.0\ref\AdaniCall.Utility.dll

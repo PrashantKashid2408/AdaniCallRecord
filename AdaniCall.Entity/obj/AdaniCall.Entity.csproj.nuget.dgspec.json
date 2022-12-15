@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AdaniCall\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {}
+    "D:\\AdaniCallRecord\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {}
   },
   "projects": {
-    "D:\\AdaniCall\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
+    "D:\\AdaniCallRecord\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdaniCall\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
+        "projectUniqueName": "D:\\AdaniCallRecord\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
         "projectName": "AdaniCall.Entity",
-        "projectPath": "D:\\AdaniCall\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
+        "projectPath": "D:\\AdaniCallRecord\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
         "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
-        "outputPath": "D:\\AdaniCall\\AdaniCall.Entity\\obj\\",
+        "outputPath": "D:\\AdaniCallRecord\\AdaniCall.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

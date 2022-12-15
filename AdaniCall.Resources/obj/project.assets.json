@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AdaniCall\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
+      "projectUniqueName": "D:\\AdaniCallRecord\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
       "projectName": "AdaniCall.Resources",
-      "projectPath": "D:\\AdaniCall\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
+      "projectPath": "D:\\AdaniCallRecord\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
       "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
-      "outputPath": "D:\\AdaniCall\\AdaniCall.Resources\\obj\\",
+      "outputPath": "D:\\AdaniCallRecord\\AdaniCall.Resources\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
