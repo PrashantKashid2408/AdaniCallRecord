@@ -107,9 +107,9 @@ function LoadCall() {
     if (LoadCallCount > LoadCountAllowed) {
         if (LoadCallCount > LoadCountAllowed) {
             FreeAgent($("#callee-acs-user-id").val());
-            setTimeout(function () {
-                window.location.href = "/Landing/Index";
-            }, 5000);
+         //   setTimeout(function () {
+              //  window.location.href = "/Landing/Index";
+         //   }, 5000);
         }
     } else {
         if (!faceSpotted && !wasCallConnected) {
