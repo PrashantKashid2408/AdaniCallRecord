@@ -196,7 +196,7 @@ function ShowDefaultScreen(frm) {
         $(".all_steps")
             .find(".all_steps_inner")
             .html(
-                "<div class='para-text'><p>Connecting to a passenger service agent...</p></div>"
+                "<div class='para-text'><p>Click on Start Call to Talk with Agent</p></div>"
             );
     console.log("this is Default Screen from : " + frm);
 }
@@ -238,9 +238,9 @@ function ShowConnectingMsg(frm) {
                 faceSpotted = false;
 
                 FreeAgent($("#callee-acs-user-id").val());
-                setTimeout(function () {
-                    window.location.href = "/Landing/Index";
-                }, 5000);
+               // setTimeout(function () {
+                  //  window.location.href = "/Landing/Index";
+               // }, 5000);
             }, 45000);
     }
 }
@@ -411,15 +411,19 @@ function ShowThankYouMsg() {
                 thankyouStatus = 0;
 
                 faceSpotted = false;
-
-                window.location.href = "/Landing/Index";
+                $(".all_steps")
+                    .find(".all_steps_inner")
+                    .html(
+                        "<div class='para-text'><p>Click on Start Call to Talk with Agent</p></div>"
+                    );
+                //window.location.href = "/Landing/Index";
             }
         }
         seconds--;
         if (seconds < 10) {
             minutes = "0" + seconds;
         }
-    }, 1000);
+    }, 1200);
 }
 
 function RemoveAllMsg() {

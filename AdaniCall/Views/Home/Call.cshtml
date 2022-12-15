@@ -78,7 +78,7 @@
                        value=""
                        placeholder="Enter callee's ACS user identity in format: '8:acs:resourceId_userId'"
                        style="margin-bottom:1em; width: 500px; display: none;" />
-                <div class="video_button_container" style="display:none;">
+                <div class="video_button_container" @*style="display:none;"*@>
                     <ul class="btnlist">
                         <li>
                             <span>
@@ -154,6 +154,9 @@
             <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
             [[MESSAGE]]
         </div>
+    </script>
+    <script>
+        $("#initialize-call-agent").click();
     </script>
 </body>
 </html>

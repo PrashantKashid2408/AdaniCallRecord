@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\dist\bundle.js" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AdminLTE" Version="2.4.0" />
     <PackageReference Include="Azure.Communication.CallAutomation" Version="1.0.0-beta.1" />
     <PackageReference Include="Azure.Communication.Common" Version="1.2.1" />

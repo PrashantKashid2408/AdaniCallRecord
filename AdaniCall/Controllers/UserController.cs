@@ -231,7 +231,7 @@ namespace AdaniCall.Controllers
                             CommonData _CommonData = new CommonData();
 
                             if (objUserEntity.RoleId == (byte)RoleEnums.Role.Kiosk)
-                               _jsonMessage.ReturnUrl = AdaniCallConstants.AdaniCallDomain+ "/Landing/Index";
+                               _jsonMessage.ReturnUrl = AdaniCallConstants.AdaniCallDomain+ "/Home/Call";
                             else
                             if (objUserEntity.RoleId == (byte)RoleEnums.Role.Agent)
                                 _jsonMessage.ReturnUrl = AdaniCallConstants.AdaniCallDomain + "/Home/Accept";
