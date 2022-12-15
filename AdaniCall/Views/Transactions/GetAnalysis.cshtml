@@ -1,0 +1,50 @@
+﻿@model List<AdaniCall.Entity.Analysis>
+@using AdaniCall.Resources;
+@using AdaniCall.Models;
+@using AdaniCall.Entity.Enums;
+@{
+    ViewBag.Title = "Analysis";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts
+{
+    <script type="text/javascript">
+        var changeStatusUrl = '/Transactions/ChangeStatus/';
+        var searchUrl = '/Transactions/Search';
+        var listtype = '@ViewBag.RequestList';
+    </script>
+    <script src="~/Scripts/knockout-3.1.0.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script src="~/Scripts/run_prettify.js"></script>
+    <script src="~/Scripts/plugins/bootstrap-dialog/bootstrap-dialog.js"></script>
+    <script src="~/Scripts/plugins/bootstrap-dialog/bootstrap-dialog-custom.js"></script>
+    <script src="~/Scripts/responsive-table.js" type="text/javascript"></script>
+    <script src="~/Scripts/Common/pagesort.js"></script>
+    <script src="~/Scripts/Common/commonlist.js"></script>
+    <script src="~/js/transactions.js"></script>
+}
+<div class="content-wrapper box" id="divLoader">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <input type="hidden" id="page" name="page" value="0" />
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">@ViewBag.Title</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+            <div class="mtop15">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="dvCommon">
+                            @Html.Partial("_Analysis", Model)
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </div>
+</div>
+@*@Html.Partial("_FormData");*@

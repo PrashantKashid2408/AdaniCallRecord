@@ -1,0 +1,40 @@
+﻿@model X.PagedList.PagedList<AdaniCall.Entity.SentenceOpinion>
+@using X.PagedList.Mvc.Core;
+@using AdaniCall.Entity.Enums;
+@using AdaniCall.Resources;
+@{
+    Layout = null;
+}
+
+<input type="hidden" id="hdnSortColumn" value="@ViewBag.SortColumn" />
+<input type="hidden" id="hdnSortOrder" value="@ViewBag.SortOrder" />
+<input type="hidden" id="hdnPage" value="@ViewBag.Page" />
+<input type="hidden" id="hdnSize" value="@ViewBag.Size" />
+@if (Model != null && Model.Count() > 0)
+{
+    <div class="clearfix"></div>
+    <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4 mtop15">
+        <div class="table-responsive-lg">
+            @Html.Partial("_List", Model)
+            <div class="clearfix"></div>
+            <div class="clearfix"></div>
+            <div>
+                <center>
+                    @Resource.lbl_page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) @Resource.lbl_of @Model.PageCount (@Model.TotalItemCount @Resource.lbl_records)
+                    @Html.PagedListPager(Model, page => Url.Action("List", new { page }))
+                </center>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+}
+else
+{
+    <div class="box-body-custom-datatable">
+        <p>&nbsp;</p>
+        <center>@Resource.lbl_noRecordsFound</center>
+        <p>&nbsp;</p>
+    </div>
+}
+

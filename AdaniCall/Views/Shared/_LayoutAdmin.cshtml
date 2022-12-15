@@ -1,0 +1,208 @@
+﻿@using AdaniCall.Entity.Enums;
+@using AdaniCall.Entity;
+@using AdaniCall.Business.BusinessFacade;
+@using AdaniCall.Resources;
+@using AdaniCall.Utility.Common;
+@inject IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- for Internet IE Explore new elements are render like HTML 5. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="YES" name="apple-touch-fullscreen">
+
+    <!-- for apple mobile capable -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="shortcut icon" href="~/images/favicon.ico" />
+    <title>@ViewBag.Title</title>
+  
+    <link href="~/content/site.css" rel="stylesheet" />
+
+    <link href="~/content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/content/bootstrap.css" rel="stylesheet" />
+
+    <script src="~/js/jquery-3.6.0.min.js"></script>
+
+   @* <script src="~/scripts/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/scripts/plugins/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="~/scripts/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/scripts/plugins/bootstrap/js/bootstrap.js"></script>*@
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+ 
+    @* @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")*@
+
+    <script src="~/Scripts/Common/validation.js"></script>
+    <script src="~/Scripts/Common/common.js?v=1"></script>
+
+    @{
+        var _id = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString())) : "");
+        var _username = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserEmailID.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserEmailID.ToString())) : "");
+        var _usernameTrimmed = !string.IsNullOrWhiteSpace(_username) && _username.Length > 17 ? _username.Trim().Substring(0, 17) + "..." : _username;
+        var _name = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.FirstName.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.FirstName.ToString())) : "") + " " + (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.LastName.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.LastName.ToString())) : "");
+        //var _nameTrimmed = !string.IsNullOrWhiteSpace(_name) && _name.Length > 17 ? _name.Trim().Substring(0, 17) + "..." : _name;
+        TempData["nameTrimmed"] = _name;
+        //var _nameTrimmed = _name;
+
+        var _role = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "");
+        var _logo = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserLogo.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserLogo.ToString())) : "");
+
+        if (_id == "")
+        {
+            HttpContextAccessor.HttpContext.Response.Redirect("/User/Login");
+        }
+        if (_logo.Contains("no-logo"))
+        {
+            _logo = "";
+        }
+        if (_logo != "")
+        {
+            _logo = _logo.Replace("[UserID]", _id.ToString());
+        }
+        else
+        {
+            _logo = "/Content/images/avatar5.png";
+        }
+    }
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+        @*@if (_role == Convert.ToString((byte)RoleEnums.Role.Agent))
+        {*@
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            @*<ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </li>
+            </ul>*@
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown user user-menu">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                        <img src="~/Content/dist/img/user2-160x160.jpg" class="user-image img-circle elevation-2" alt=" user image">
+                        <span class="hidden-xs">@Resource.lbl_profile</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <!-- User image -->
+                        <li class="user-header bg-primary">
+                            <img src="~/Content/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                            <p>
+                                TempData["nameTrimmed"]
+                            </p>
+                        </li>
+                        <!-- Menu Body -->
+                        <!-- Menu Footer-->
+                        <li class="user-footer">
+                            @*<div class="pull-left">
+                            <a href="/User/Portfolio" class="btn btn-default btn-flat">Profile</a>
+                            </div>*@
+                            <div class="pull-right">
+                                <a href="/User/Logout" class="btn btn-default">Sign out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="#nolink" class="brand-link">
+                <img src="~/images/logos/adani_airport_logo.png" alt="Logo" class="img-circle-cust">
+                @*<span class="brand-text font-weight-light">Aarogya Setu QR</span>*@
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+                             with font-awesome or any other icon font library -->
+                        <li class="nav-item has-treeview">
+                            @if (ViewBag.MenuId == KeyEnums.MenuKeys.liDashBoard.ToString())
+                            {
+                                <a href="/DashBoard/Index" class="nav-link active hide"><i class="nav-icon fas fa-table"></i><p>DashBoard</p></a>
+                            }
+                            else
+                            {
+                                <a href="/DashBoard/Index" class="nav-link hide"><i class="nav-icon fas fa-table"></i><p>DashBoard</p></a>
+                            }
+
+                            @if (ViewBag.MenuId == KeyEnums.MenuKeys.liTransactionAll.ToString())
+                            {
+                                <a href="/Transactions/List" class="nav-link active"><i class="nav-icon fas fa-table"></i><p>Call Details</p></a>
+                            }
+                            else
+                            {
+                                <a href="/Transactions/List" class="nav-link"><i class="nav-icon fas fa-table"></i><p>Call Details</p></a>
+                            }
+
+                            @if (ViewBag.MenuId == KeyEnums.MenuKeys.liWordCloud.ToString())
+                            {
+                                <a href="/Opinion/List" class="nav-link active"><i class="nav-icon fas fa-table"></i><p>Word Cloud Opinion</p></a>
+                            }
+                            else
+                            {
+                                <a href="/Opinion/List" class="nav-link"><i class="nav-icon fas fa-table"></i><p>Word Cloud Opinion</p></a>
+                            }
+
+                            @if (ViewBag.MenuId == KeyEnums.MenuKeys.liWordCloudAssessments.ToString())
+                            {
+                                <a href="/Assessments/List" class="nav-link active"><i class="nav-icon fas fa-table"></i><p>Word Cloud Assessments</p></a>
+                            }
+                            else
+                            {
+                                <a href="/Assessments/List" class="nav-link"><i class="nav-icon fas fa-table"></i><p>Word Cloud Assessments</p></a>
+                            }
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+        @*}*@
+        <div class="body-content mainContainer-body-content" style="padding:0px;">
+            @RenderBody()
+        </div>
+    </div>
+    <script id="scriptLoader" type="application/htmlMessage">
+        <div class="overlay"></div>
+        <div class="loading-img"></div>
+    </script>
+    <script id="scriptLoaderSmall" type="application/htmlMessage">
+        <div class="overlay"></div>
+        <div class="loading-img-small"></div>
+    </script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+   
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

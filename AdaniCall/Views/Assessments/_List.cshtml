@@ -1,0 +1,61 @@
+﻿@model X.PagedList.PagedList<AdaniCall.Entity.SentenceAssessments>
+@using Microsoft.AspNetCore.Http
+@using X.PagedList.Mvc.Core;
+@using AdaniCall.Entity
+@using AdaniCall.Entity.Enums;
+@using AdaniCall.Resources;
+@using AdaniCall.Utility;
+
+@{
+    Layout = null;
+}
+
+@if (Model != null && Model.Count() > 0)
+{
+<label>
+    @{
+        foreach (var item in Model)
+        {
+            if (item.EntityAssesmentTotal != null)
+            {
+                foreach (AssesmentTotal objOT in item.EntityAssesmentTotal)
+                {
+                    if (objOT.Sentiment.ToLower() == "positive")
+                    {
+                        <label>Total Positive Sentiments: </label> @objOT.Count <br />
+                    }
+                    else if (objOT.Sentiment.ToLower() == "negative")
+                    {
+                        <label>Total Negative Sentiments: </label> @objOT.Count <br />
+                    }
+                    else if (objOT.Sentiment.ToLower() == "mixed")
+                    {
+                        <label>Total Mixed Sentiments: </label> @objOT.Count
+                    }
+                }
+                break;
+            }
+        }
+
+    }
+</label>
+    <table id="example2" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <thead>
+            <tr role="row">
+                <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_text">Words</th>
+                <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_sentiment">Sentiment</th>
+                <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_count">Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="wordbreak">@item.AssessmentText</td>
+                    <td class="wordbreak">@item.Sentiment</td>
+                    <td class="wordbreak">@item.Count</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

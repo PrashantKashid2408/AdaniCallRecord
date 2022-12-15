@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Emergency Contacts";
+    Layout = "~/Views/Shared/_LayoutLandings.cshtml";
+}
+
+<div class="paginate-container">
+    <!-- Rounded Bubble with title Left Section-->
+    <div class="paginate-container-imgTitlesec-fl">
+        <div class="paginate-container-imgTitlesec">
+            <div class="bubbleImg-sec">
+                <div class="bubble-rounded bubble-rounded-inner-emergencyContact"> <img src="~/images/icons/emergency-contacts-icon.svg" alt="Emergency Contacts"> </div>
+            </div>
+            <div class="bubbleTitle">
+                <!-- <h2>Emergency Contacts</h2> -->
+                <!--<p>Your Para goes here.</p>-->
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="cust-back-btn">
+                <a href="/Landing/Index"><img src="~/images/icon-back-button.svg" alt="Back Button Icon"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- END Rounded Bubble with title Left Section -->
+    <!-- Accordian Details Right section -->
+    <div class="paginate-container-accordian-fl">
+        <div class="paginate">
+            <div class="items">
+                <div id="sec_1" class="sec_content_holder" style="border-bottom: 0px;">
+                    <button class="accordion active"><img src="~/images/icons/icon-accordion-plus.svg" alt="icon" class="plus"> <img src="~/images/icons/icon-accordion-minus.svg" alt="icon" class="minus"> Emergency Contacts</button>
+                    <div class="panel" style="display: block;">
+                        <p><b>Terminal 1</b><br />Duty Terminal Manager - 9099951141<br />Information Desk Departure - 7227923543<br />Information Desk Arrivals - 7227923239</p>
+                        <p class="mtop20 pmbot"><b>Terminal 2</b><br>Duty Terminal Manager - 9099951142</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pager">
+                <!--<div class="firstPage">&laquo;</div>
+                          <div class="previousPage">&lsaquo;</div>-->
+                <div class="pageNumbers mtop40"></div>
+                <!--<div class="nextPage">&rsaquo;</div>
+                          <div class="lastPage">&raquo;</div>-->
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <!-- END Accordian Details Right section -->
+</div>
+

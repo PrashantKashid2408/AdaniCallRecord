@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewBag.Title = "Shop &amp; Dine | Relax";
+    Layout = "~/Views/Shared/_LayoutLandings.cshtml";
+}
+
+<div class="paginate-container">
+    <div class="tab-container-fl">
+        <div class="paginate-container-imgTitlesec">
+            <div class="bubbleImg-sec">
+                <div class="bubble-rounded bubble-rounded-bgFourteen"> <img src="~/images/icons/shop-and-dine-icon.svg" alt="shop-and-dine-icon"> </div>
+            </div>
+            <div class="bubbleTitle">
+                <h2>Relax</h2>
+                <!--<p>Text Text Text</p>-->
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="cust-back-btn">
+                <a href="/Landing/ShopAndDine"><img src="~/images/icon-back-button.svg" alt="Back Button Icon"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tab-container-fr">
+        <div class="cust-tab-holder">
+            <!-- Control buttons -->
+            <div id="myBtnContainer" class="btnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('departure')"> Departure</button>
+                <button class="btn" onclick="filterSelection('arrival')"> Arrival</button>
+            </div>
+
+            <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="tabDataContainer tabDataContainerInnerTab">
+
+                <div class="filterDiv departure arrival">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/relax/spa.jpg" alt="spa">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Spa Facility (T - 1)</h2>
+                            <p>Spa services to rejuvenate passengers during their waiting time.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure arrival">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/relax/lounge.jpg" alt="lounge">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Lounge</h2>
+                            <p>Unwind yourself amid the quiet and comfortable ambience with refreshments.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/relax/urban-naps.jpg" alt="urban-naps">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Sleeping Pods</h2>
+                            <p>
+                                Urban Naps Sleeping Pods<br>
+                                At a special price of INR 599 for 120 minutes.<br>
+                                To reserve, please visit <a href="https://amd.urbannaps.com" target="_blank" style="color:#fff;">https://amd.urbannaps.com</a>.<br>
+                                For queries, please call +91-8866741334
+                            </p>
+                            <p class="mtop30">Location: Terminal 1, Before Check-in Counter and Terminal 1, First Floor Near Gate no. 4</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+<script>
+
+    // Add active class to the current control button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>

@@ -1,0 +1,260 @@
+﻿@model List<AdaniCall.Entity.Analysis>
+@using AdaniCall.Entity.Enums;
+@using AdaniCall.Resources;
+@using AdaniCall.Utility;
+
+@{
+    Layout = null;
+    Int64 ID = 0;
+    Int64 SpeechToTextID = 0;
+    Int64 AnalysedSentencesID = 0;
+    Int64 SentenceOpinionID = 0;
+    List<AdaniCall.Entity.Analysis> LstOverallAnalysedSentenceOpinion = new List<AdaniCall.Entity.Analysis>();
+    List<AdaniCall.Entity.Analysis> LstOverallAnalysedSentenceAssessment = new List<AdaniCall.Entity.Analysis>();
+}
+
+@if (Model != null && Model.Count() > 0)
+{
+
+
+    <table id="example2" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <tbody>
+            <tr>
+                <td class="wordbreak">Speech Text: @Model[0].DisplayText</td>
+            </tr>
+            <tr>
+                <td class="wordbreak">Speech Sentiment: @Model[0].Sentiment</td>
+            </tr>
+            @if (Model[0].PositiveScore != null && Convert.ToDecimal(Model[0].PositiveScore) > 0)
+            {
+                <tr>
+                    <td class="wordbreak">Speech Positive Score: @Model[0].PositiveScore</td>
+                </tr>
+            }
+            @if (Model[0].NegativeScore != null && Convert.ToDecimal(Model[0].NegativeScore) > 0)
+            {
+                <tr>
+                    <td class="wordbreak">Speech Negative Score: @Model[0].NegativeScore</td>
+                </tr>
+            }
+            @if (Model[0].NuetralScore != null && Convert.ToDecimal(Model[0].NuetralScore) > 0)
+            {
+                <tr>
+                    <td class="wordbreak">Speech Nuetral Score: @Model[0].NuetralScore</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <b>Sentence Break Up:</b>
+            </td>
+        </tr>
+    </table>
+    <table id="example2" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <thead>
+            <tr role="row">
+                <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_kiosk">Sentence</th>
+                <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_kiosklocation">Sentiment</th>
+                <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_agent">Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                LstOverallAnalysedSentenceOpinion = Model.Where(x => x.SentenceOpinionID > 0).Distinct().ToList();
+
+                LstOverallAnalysedSentenceAssessment = Model.Where(x => x.SentenceAssessmentID > 0).Distinct().ToList();
+                if (item.AnalysedSentencesID > 0)
+                {
+                    <tr>
+                        <td class="wordbreak">@item.Sentence</td>
+                        <td class="wordbreak">@item.SentenceSentiment</td>
+                        <td class="wordbreak">
+                            @if (item.SentencePositiveScore != null && Convert.ToDecimal(item.SentencePositiveScore) > 0)
+                            {
+                                <label>Positive Score:</label> @item.SentencePositiveScore;
+                            }
+                            @if (item.SentenceNegativeScore != null && Convert.ToDecimal(item.SentenceNegativeScore) > 0)
+                            {
+                                <label>Negative Score:</label> @item.SentenceNegativeScore;
+                            }
+                            @if (item.SentenceNuetralScore != null && Convert.ToDecimal(item.SentenceNuetralScore) > 0)
+                            {
+                                <label>Nuetral Score:</label> @item.SentenceNuetralScore;
+                            }
+                        </td>
+                    </tr>
+                    List
+                    <AdaniCall.Entity.Analysis>
+                        LstAnalysedSentenceOpinion = new List<AdaniCall.Entity.Analysis>
+                            ();
+                    LstAnalysedSentenceOpinion = Model.Where(x => x.SentenceOpinionID > 0 && x.AnalysedSentencesID == item.AnalysedSentencesID).Distinct().ToList();
+                    if (LstAnalysedSentenceOpinion.Count > 0)
+                    {
+                        <tr style="background-color:lightgray">
+                            <td colspan="3">
+                                Opinion Analysis:
+                            </td>
+                        </tr>
+                        foreach (AdaniCall.Entity.Analysis objSO in LstAnalysedSentenceOpinion)
+                        {
+                            <tr style="background-color:lightgray">
+                                <td class="wordbreak">@objSO.TargetText</td>
+                                <td class="wordbreak">@objSO.OpinionSentiment</td>
+                                <td class="wordbreak">
+                                    @if (objSO.OpinionPositiveScore != null && Convert.ToDecimal(objSO.OpinionPositiveScore) > 0)
+                                    {
+                                        <label>Positive Score:</label> @objSO.OpinionPositiveScore;
+                                    }
+                                    @if (objSO.OpinionNegativeScore != null && Convert.ToDecimal(objSO.OpinionNegativeScore) > 0)
+                                    {
+                                        <label>Negative Score:</label> @objSO.OpinionNegativeScore;
+                                    }
+                                    @if (objSO.OpinionNuetralScore != null && Convert.ToDecimal(objSO.OpinionNuetralScore) > 0)
+                                    {
+                                        <label>Nuetral Score:</label> @objSO.OpinionNuetralScore;
+                                    }
+                                </td>
+                            </tr>
+                            List<AdaniCall.Entity.Analysis> LstAnalysedSentenceAssessment = new List<AdaniCall.Entity.Analysis>();
+                            LstAnalysedSentenceAssessment = Model.Where(x => x.SentenceAssessmentID > 0 && x.SentenceOpinionID == objSO.SentenceOpinionID).Distinct().ToList();
+
+                            if (LstAnalysedSentenceAssessment.Count > 0)
+                            {
+                                <tr style="background-color:darkgray">
+                                    <td colspan="3">
+                                        Assessment Analysis:
+                                    </td>
+                                </tr>
+                                foreach (AdaniCall.Entity.Analysis objSAM in LstAnalysedSentenceAssessment)
+                                {
+                                    <tr style="background-color:darkgray">
+                                        <td class="wordbreak">@objSAM.AssessmentText</td>
+                                        <td class="wordbreak">@objSAM.AssessmentSentiment</td>
+                                        <td class="wordbreak">
+                                            @if (objSAM.AssessmentPositiveScore != null && Convert.ToDecimal(objSAM.AssessmentPositiveScore) > 0)
+                                            {
+                                                <label>Positive Score:</label> @objSAM.AssessmentPositiveScore;
+                                            }
+                                            @if (objSAM.AssessmentNegativeScore != null && Convert.ToDecimal(objSAM.AssessmentNegativeScore) > 0)
+                                            {
+                                                <label>Negative Score:</label> @objSAM.AssessmentNegativeScore;
+                                            }
+                                            @if (objSAM.AssessmentNuetralScore != null && Convert.ToDecimal(objSAM.AssessmentNuetralScore) > 0)
+                                            {
+                                                <label>Nuetral Score:</label> @objSAM.AssessmentNuetralScore;
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        </tbody>
+    </table>
+
+    if (LstOverallAnalysedSentenceOpinion.Count > 0)
+    {
+        <table class="table table-bordered table-hover dataTable dtr-inline" style="border:hidden" role="grid" aria-describedby="example2_info">
+            <tr>
+                <td colspan="3">
+                    <b>Overall Opinion Analysis:</b>
+                </td>
+            </tr>
+        </table>
+        <table class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+            <thead>
+                <tr role="row">
+                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_kiosk">Sentence</th>
+                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_kiosklocation">Sentiment</th>
+                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_agent">Score</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (AdaniCall.Entity.Analysis objSO in LstOverallAnalysedSentenceOpinion)
+                {
+                    <tr>
+                        <td class="wordbreak">@objSO.TargetText</td>
+                        <td class="wordbreak">@objSO.OpinionSentiment</td>
+                        <td class="wordbreak">
+                            @if (objSO.OpinionPositiveScore != null && Convert.ToDecimal(objSO.OpinionPositiveScore) > 0)
+                            {
+                                <label>Positive Score:</label> @objSO.OpinionPositiveScore;
+                            }
+                            @if (objSO.OpinionNegativeScore != null && Convert.ToDecimal(objSO.OpinionNegativeScore) > 0)
+                            {
+                                <label>Negative Score:</label> @objSO.OpinionNegativeScore;
+                            }
+                            @if (objSO.OpinionNuetralScore != null && Convert.ToDecimal(objSO.OpinionNuetralScore) > 0)
+                            {
+                                <label>Nuetral Score:</label> @objSO.OpinionNuetralScore;
+                            }
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    }
+
+    if (LstOverallAnalysedSentenceAssessment.Count > 0)
+    {
+        <table class="table table-bordered table-hover dataTable dtr-inline" style="border:hidden" role="grid" aria-describedby="example2_info">
+            <tr>
+                <td colspan="3">
+                    <b>Overall Assessment Analysis:</b>
+                </td>
+            </tr>
+        </table>
+        <table class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+            <thead>
+                <tr role="row">
+                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_kiosk">Sentence</th>
+                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_kiosklocation">Sentiment</th>
+                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_agent">Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (AdaniCall.Entity.Analysis objSAM in LstOverallAnalysedSentenceAssessment)
+                {
+                    <tr>
+                        <td class="wordbreak">@objSAM.AssessmentText</td>
+                        <td class="wordbreak">@objSAM.AssessmentSentiment</td>
+                        <td class="wordbreak">
+                            @if (objSAM.AssessmentPositiveScore != null && Convert.ToDecimal(objSAM.AssessmentPositiveScore) > 0)
+                            {
+                                <label>Positive Score:</label> @objSAM.AssessmentPositiveScore;
+                            }
+                            @if (objSAM.AssessmentNegativeScore != null && Convert.ToDecimal(objSAM.AssessmentNegativeScore) > 0)
+                            {
+                                <label>Negative Score:</label> @objSAM.AssessmentNegativeScore;
+                            }
+                            @if (objSAM.AssessmentNuetralScore != null && Convert.ToDecimal(objSAM.AssessmentNuetralScore) > 0)
+                            {
+                                <label>Nuetral Score:</label> @objSAM.AssessmentNuetralScore;
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+
+
+
+
+}
+else
+{
+    <div class="box-body-custom-datatable">
+        <p>&nbsp;</p>
+        <center>@Resource.lbl_noRecordsFound</center>
+        <p>&nbsp;</p>
+    </div>
+}

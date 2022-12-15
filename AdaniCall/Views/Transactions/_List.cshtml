@@ -1,0 +1,63 @@
+﻿@model X.PagedList.PagedList<AdaniCall.Entity.CallTransactions>
+@using AdaniCall.Entity.Enums;
+@using AdaniCall.Resources;
+@using AdaniCall.Utility;
+@using X.PagedList.Mvc.Core;
+@{
+    Layout = null;
+}
+
+@if (Model!=null && Model.Count() > 0)
+{
+<table id="example2" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+    <thead>
+        <tr role="row">
+            <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_srno">Sr. No</th>
+            <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_kiosk">Kiosk</th>
+            <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_kiosklocation">Kiosk Location</th>
+            <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_agent">Agent</th>
+            <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_agentlocation">Agent Location</th>
+            <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_start">Call Start Time</th>
+            <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_end">Call End Time</th>
+            <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" id="col_analysis">Analysis</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td class="wordbreak">@item.RowNumber</td>
+            <td class="wordbreak">@item.KioskName</td>
+            <td class="wordbreak">@item.KioskLocation</td>
+            <td class="wordbreak">@item.AgentName</td>
+            <td class="wordbreak">@item.AgentLocation</td>
+            @{
+                if (!string.IsNullOrWhiteSpace(item.CallEndTime))
+                {
+                    var istSdate = TimeZoneInfo.ConvertTimeFromUtc(Convert.ToDateTime(item.CallStartTime), TimeZoneInfo.FindSystemTimeZoneById("India Standard Time"));
+                    <td class="wordbreak">@istSdate.ToString("dd/MM/yy h:mm:ss tt")</td>
+                }
+                else
+                {
+                    <td class="wordbreak"></td>
+                }
+                if (!string.IsNullOrWhiteSpace(item.CallEndTime))
+                {
+                    var istEdate = TimeZoneInfo.ConvertTimeFromUtc(Convert.ToDateTime(item.CallEndTime), TimeZoneInfo.FindSystemTimeZoneById("India Standard Time"));
+                    <td class="wordbreak">@istEdate.ToString("dd/MM/yy h:mm:ss tt")</td>
+                }
+                else
+                {
+                    <td class="wordbreak"></td>
+                }
+            }
+
+            <td class="wordbreak">
+                @* href="/Transactions/GetAnalysis?ID='@item.ID'" *@
+                <button type="button" class="btn btn-primary" onclick="GetAnalysis('@item.ID')" id="ViewAnalysis" name="ViewAnalysis" data-toggle="modal" data-target="#modal-default">Analysis</button>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+}

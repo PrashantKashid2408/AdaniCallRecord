@@ -1,0 +1,1441 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AdaniCall.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AdaniCall.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\Site.css",
+      "PackagePath": "staticwebassets\\Content\\Site.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\audio\\telephone-ring-02.mp3",
+      "PackagePath": "staticwebassets\\Content\\audio\\telephone-ring-02.mp3"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\Content\\dist\\css\\adminlte.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\Content\\dist\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\Content\\dist\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\dist\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\css\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\dist\\css\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\avatar04.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\avatar04.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\avatar2.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\avatar3.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\avatar5.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\boxed-bg.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\credit\\mestro.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\credit\\mestro.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\credit\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\credit\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\default-150x150.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\icons.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\icons.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\photo1.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\photo2.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\dist\\img\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\dist\\img\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Content\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\images\\dashB-plus-white.svg",
+      "PackagePath": "staticwebassets\\Content\\images\\dashB-plus-white.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\images\\icon-arrow-down-black.png",
+      "PackagePath": "staticwebassets\\Content\\images\\icon-arrow-down-black.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\images\\icon-search-gray.svg",
+      "PackagePath": "staticwebassets\\Content\\images\\icon-search-gray.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\images\\preloader.gif",
+      "PackagePath": "staticwebassets\\Content\\images\\preloader.gif"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap-datepicker\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap-datepicker\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap-dialog\\bootstrap-dialog.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap-dialog\\bootstrap-dialog.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap-dialog\\bootstrap-dialog.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap-dialog\\bootstrap-dialog.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap-dialog\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap-dialog\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\fonts\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\fonts\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\bootstrap\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\bootstrap\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\css\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\css\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\fontawesome-free\\webfonts\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\fontawesome-free\\webfonts\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\icheck-bootstrap\\icheck-bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\icheck-bootstrap\\icheck-bootstrap.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\icheck-bootstrap\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\icheck-bootstrap\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\overlayScrollbars\\css\\OverlayScrollbars.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\overlayScrollbars\\css\\OverlayScrollbars.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\overlayScrollbars\\css\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\overlayScrollbars\\css\\OverlayScrollbars.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\overlayScrollbars\\css\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\overlayScrollbars\\css\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\sweetalert2-theme-bootstrap-4\\bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\sweetalert2-theme-bootstrap-4\\bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\sweetalert2-theme-bootstrap-4\\bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\sweetalert2-theme-bootstrap-4\\bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\sweetalert2-theme-bootstrap-4\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\sweetalert2-theme-bootstrap-4\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\tempusdominus-bootstrap-4\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\tempusdominus-bootstrap-4\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\tempusdominus-bootstrap-4\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\tempusdominus-bootstrap-4\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Content\\plugins\\tempusdominus-bootstrap-4\\css\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Content\\plugins\\tempusdominus-bootstrap-4\\css\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\common\\common.js",
+      "PackagePath": "staticwebassets\\Scripts\\common\\common.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\common\\commonlist.js",
+      "PackagePath": "staticwebassets\\Scripts\\common\\commonlist.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\common\\global.js",
+      "PackagePath": "staticwebassets\\Scripts\\common\\global.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\common\\pagesort.js",
+      "PackagePath": "staticwebassets\\Scripts\\common\\pagesort.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\common\\uploadfile.js",
+      "PackagePath": "staticwebassets\\Scripts\\common\\uploadfile.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\common\\validation.js",
+      "PackagePath": "staticwebassets\\Scripts\\common\\validation.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\common\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\common\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\demo.js",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\pages\\dashboard3.js",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\pages\\dashboard3.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\pages\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\pages\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\dist\\js\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\dist\\js\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\jquery-2.1.3.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-2.1.3.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\jquery-3.3.1.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\jquery-ui-1.11.4.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-ui-1.11.4.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\jquery-ui-1.11.4.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-ui-1.11.4.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\knockout-3.1.0.js",
+      "PackagePath": "staticwebassets\\Scripts\\knockout-3.1.0.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\knockout.mapping-latest.js",
+      "PackagePath": "staticwebassets\\Scripts\\knockout.mapping-latest.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\modernizr-2.6.2.js",
+      "PackagePath": "staticwebassets\\Scripts\\modernizr-2.6.2.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap-datepicker\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap-datepicker\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap-dialog\\bootstrap-dialog-custom.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap-dialog\\bootstrap-dialog-custom.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap-dialog\\bootstrap-dialog.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap-dialog\\bootstrap-dialog.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap-dialog\\bootstrap-dialog.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap-dialog\\bootstrap-dialog.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap-dialog\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap-dialog\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bootstrap\\js\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bootstrap\\js\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bs4\\bootstrap-dialog-custom-bs4.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bs4\\bootstrap-dialog-custom-bs4.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bs4\\bootstrap-dialog.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bs4\\bootstrap-dialog.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bs4\\bootstrap-dialog.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bs4\\bootstrap-dialog.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\bs4\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\bs4\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\jquery-ui\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\js\\src\\modal.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\js\\src\\modal.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\js\\src\\popover.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\js\\src\\popover.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\overlayScrollbars\\js\\OverlayScrollbars.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\overlayScrollbars\\js\\OverlayScrollbars.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\overlayScrollbars\\js\\OverlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\overlayScrollbars\\js\\OverlayScrollbars.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\overlayScrollbars\\js\\jquery.overlayScrollbars.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\overlayScrollbars\\js\\jquery.overlayScrollbars.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\overlayScrollbars\\js\\jquery.overlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\overlayScrollbars\\js\\jquery.overlayScrollbars.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\overlayScrollbars\\js\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\overlayScrollbars\\js\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\plugins\\sweetalert2\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\sweetalert2\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\respond.js",
+      "PackagePath": "staticwebassets\\Scripts\\respond.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\responsive-table.js",
+      "PackagePath": "staticwebassets\\Scripts\\responsive-table.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\run_prettify.js",
+      "PackagePath": "staticwebassets\\Scripts\\run_prettify.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\user\\login.js",
+      "PackagePath": "staticwebassets\\Scripts\\user\\login.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\Scripts\\user\\vssver2.scc",
+      "PackagePath": "staticwebassets\\Scripts\\user\\vssver2.scc"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\bundle.js",
+      "PackagePath": "staticwebassets\\bundle.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\client.js",
+      "PackagePath": "staticwebassets\\client.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\fonts\\Lato-Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Lato-Bold.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\fonts\\Lato-Light.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Lato-Light.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\fonts\\Lato-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Lato-Regular.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\fonts\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\fonts\\adani-regular.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\adani-regular.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\style_landing - 18thMay2022.css",
+      "PackagePath": "staticwebassets\\css\\style_landing - 18thMay2022.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\css\\style_landing.css",
+      "PackagePath": "staticwebassets\\css\\style_landing.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\dist\\bundle.js",
+      "PackagePath": "staticwebassets\\dist\\bundle.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\dist\\client.js",
+      "PackagePath": "staticwebassets\\dist\\client.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\Myriad-Pro-Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\Myriad-Pro-Light.otf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\Myriad-Pro-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Myriad-Pro-Regular.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\Myriad-Pro-Semibold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Myriad-Pro-Semibold.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\Myriad-Web-Pro-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Myriad-Web-Pro-Bold.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\adani-logo---.png",
+      "PackagePath": "staticwebassets\\images\\adani-logo---.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\adani-logo.png",
+      "PackagePath": "staticwebassets\\images\\adani-logo.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\airport-services\\PSLogo.png",
+      "PackagePath": "staticwebassets\\images\\airport-services\\PSLogo.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\airport-services\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\airport-services\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\airport-services\\airport-entry-ticket.jpg",
+      "PackagePath": "staticwebassets\\images\\airport-services\\airport-entry-ticket.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\airport-services\\baggage-wrapping.jpg",
+      "PackagePath": "staticwebassets\\images\\airport-services\\baggage-wrapping.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\airport-services\\lost-and-found.jpg",
+      "PackagePath": "staticwebassets\\images\\airport-services\\lost-and-found.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\airport-services\\pranaam-meet-and-greet.jpg",
+      "PackagePath": "staticwebassets\\images\\airport-services\\pranaam-meet-and-greet.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\bg-mobile.png",
+      "PackagePath": "staticwebassets\\images\\bg-mobile.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\bg.png",
+      "PackagePath": "staticwebassets\\images\\bg.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\bubbles-bg-16thJune2022.png",
+      "PackagePath": "staticwebassets\\images\\bubbles-bg-16thJune2022.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\bubbles-bg-18thMay2022.png",
+      "PackagePath": "staticwebassets\\images\\bubbles-bg-18thMay2022.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\bubbles-bg-24thJune2022.png",
+      "PackagePath": "staticwebassets\\images\\bubbles-bg-24thJune2022.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\bubbles-bg.png",
+      "PackagePath": "staticwebassets\\images\\bubbles-bg.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\button-icon\\acceptcall_ic.svg",
+      "PackagePath": "staticwebassets\\images\\button-icon\\acceptcall_ic.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\button-icon\\hangcall_ic.svg",
+      "PackagePath": "staticwebassets\\images\\button-icon\\hangcall_ic.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\button-icon\\start_video_ic.svg",
+      "PackagePath": "staticwebassets\\images\\button-icon\\start_video_ic.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\button-icon\\startcall_ic.svg",
+      "PackagePath": "staticwebassets\\images\\button-icon\\startcall_ic.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\button-icon\\stopvideo_ic.svg",
+      "PackagePath": "staticwebassets\\images\\button-icon\\stopvideo_ic.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\container-bg-big.png",
+      "PackagePath": "staticwebassets\\images\\container-bg-big.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\container-bg-call.png",
+      "PackagePath": "staticwebassets\\images\\container-bg-call.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\container-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\container-bg.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\container-bg.png",
+      "PackagePath": "staticwebassets\\images\\container-bg.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\gophygital-logo.png",
+      "PackagePath": "staticwebassets\\images\\gophygital-logo.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icon-back-button.svg",
+      "PackagePath": "staticwebassets\\images\\icon-back-button.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\airline-call-centre-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\airline-call-centre-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\airline-information-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\airline-information-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\airport-stores-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\airport-stores-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\at-the-airport-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\at-the-airport-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\baggage-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\baggage-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\children-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\children-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\covid-guidelines-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\covid-guidelines-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\emergency-contacts-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\emergency-contacts-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\getting-to-airport-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\getting-to-airport-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\icon-accordion-minus.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-accordion-minus.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\icon-accordion-plus.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-accordion-plus.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\icon-airport-services.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-airport-services.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\rentals-and-parking-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\rentals-and-parking-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\route-map-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\route-map-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\security-checkpoint-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\security-checkpoint-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\shop-and-dine-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\shop-and-dine-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\icons\\talk-to-us-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\talk-to-us-icon.svg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\img-walk-to-me.png",
+      "PackagePath": "staticwebassets\\images\\img-walk-to-me.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\img-walk-with-me.png",
+      "PackagePath": "staticwebassets\\images\\img-walk-with-me.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\loader.gif"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\logos\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\logos\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\logos\\adani_airport_logo.png",
+      "PackagePath": "staticwebassets\\images\\logos\\adani_airport_logo.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\logos\\gophygital_logo.png",
+      "PackagePath": "staticwebassets\\images\\logos\\gophygital_logo.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\logos\\microsoft_azure_logo.png",
+      "PackagePath": "staticwebassets\\images\\logos\\microsoft_azure_logo.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\microsoft-azure-logo.png",
+      "PackagePath": "staticwebassets\\images\\microsoft-azure-logo.png"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\ringing-call.gif",
+      "PackagePath": "staticwebassets\\images\\ringing-call.gif"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\dine\\cafe.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\dine\\cafe.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\dine\\casual-dining.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\dine\\casual-dining.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\dine\\food-court.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\dine\\food-court.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\dine\\grab-and-go.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\dine\\grab-and-go.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\atm-counter.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\atm-counter.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\ayurveda-wellness-shop.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\ayurveda-wellness-shop.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\baggage-wrapping-facility.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\baggage-wrapping-facility.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\branded-beauty-products.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\branded-beauty-products.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\footwear-and-leather.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\footwear-and-leather.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\gadjet-shop.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\gadjet-shop.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\gift-shop.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\gift-shop.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\handicraft.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\handicraft.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\khadi-emporium-shop.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\khadi-emporium-shop.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\magazine-shop.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\magazine-shop.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\money-exchange-counter.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\money-exchange-counter.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\duty-free-and-shopping\\womens-apparel.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\duty-free-and-shopping\\womens-apparel.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\relax\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\relax\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\relax\\lounge.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\relax\\lounge.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\relax\\spa.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\relax\\spa.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\relax\\urban-naps.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\relax\\urban-naps.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\shop-and-dine-dinenew.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\shop-and-dine-dinenew.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\shop-and-dine-duty-free-and-shopping.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\shop-and-dine-duty-free-and-shopping.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\shop-and-dine-relax.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\shop-and-dine-relax.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\shop-and-dine\\shop-and-dine-smoking-lounge.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-and-dine\\shop-and-dine-smoking-lounge.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\transport\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\transport\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\transport\\bus-service.jpg",
+      "PackagePath": "staticwebassets\\images\\transport\\bus-service.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\images\\transport\\pre-paid-taxi.jpg",
+      "PackagePath": "staticwebassets\\images\\transport\\pre-paid-taxi.jpg"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\camvas.js",
+      "PackagePath": "staticwebassets\\js\\camvas.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\common.js",
+      "PackagePath": "staticwebassets\\js\\common.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\common_backup_before_change_msg_24thJune2022.js",
+      "PackagePath": "staticwebassets\\js\\common_backup_before_change_msg_24thJune2022.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\custom-landingpages.js",
+      "PackagePath": "staticwebassets\\js\\custom-landingpages.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\jquery-3.6.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.1.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\paginga.jquery.js",
+      "PackagePath": "staticwebassets\\js\\paginga.jquery.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\paginga.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\paginga.jquery.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\pico.js",
+      "PackagePath": "staticwebassets\\js\\pico.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\js\\transactions.js",
+      "PackagePath": "staticwebassets\\js\\transactions.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\AdaniCall\\AdaniCall\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AdaniCall.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AdaniCall.props",
+      "PackagePath": "build\\AdaniCall.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AdaniCall.props",
+      "PackagePath": "buildMultiTargeting\\AdaniCall.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AdaniCall.props",
+      "PackagePath": "buildTransitive\\AdaniCall.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

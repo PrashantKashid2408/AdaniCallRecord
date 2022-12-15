@@ -1,0 +1,418 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: Lato-Regular;
+  src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url(fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: Lato-Light;
+  src: url(fonts/Lato-Light.ttf);
+}
+
+body{margin:0; padding:0; font-family: 'Lato-Regular', Tahoma, Helvetica, sans-serif; color:#FFF; background: url(../images/container-bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  } 
+.clearfix{ clear:both;}
+.mtop10{margin-top:10px;}
+.mtop20{margin-top:20px;}
+.mtop30{margin-top:30px;}
+.mtop40{margin-top:40px;}
+
+.cust-header{position:relative; height:120px;}
+.cust-header .cust-logo{position:absolute; top:-10px;}
+.cust-header .cust-logo img{ width:200px;}
+.cust-header .cust-header-title{padding-top:28px;}
+.cust-header .cust-header-title .titleH1{font-family: 'Lato-Bold', Tahoma, Helvetica, sans-serif; font-size:32px; font-weight:normal; color:#ffffff; text-align:center; margin:0;}
+
+/*.main-conainer{}
+.main-conainer-inner{}*/
+.cust-container{
+	max-width:1920px;
+	margin:0 auto;
+	width:100%;
+}
+.cust-container-p20{padding:0px 20px;}
+
+/* Image Mapping Css*/
+.infraFormulationsImgClick {cursor:pointer;}
+.infraFormulationsHoverGroup:hover {/*opacity: 0;*/ opacity: 0;}
+#infraFormulationsProjectsvg {
+  position: relative;
+  width: 100%;
+  padding-bottom: 60%;
+  vertical-align: middle;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#infraFormulationsProjectsvg svg {display: inline-block; position: absolute; top:0; left: 0;}
+/* END Image Mapping Css*/
+
+/*Bubble Css*/
+/*.bubble-airline-info, .bubble-getting-to-airport, .bubble-at-the-airport, .bubble-security-checkpoint, .bubble-children, .bubble-airline-call-centre, .bubble-baggage, .bubble-rentals-parking, .bubble-airport-stores, .bubble-covid-guidelines, .bubble-route-map, bubble-emergency-contacts, .bubble-talk-to-us{ float:left;}
+.bubble-p10{padding:10px;}
+.cust-rounded-div{border-radius:50%;}
+.cust-airline-info-sec{width:222px; height:222px; background-color:#F06C9B; display: table;}
+.cust-getting-to-airport-sec{width:225px; height:225px; background-color:#1FBFE3; display: table;}
+.cust-at-the-airport-sec{width:225px; height:225px; background-color:#727272; display: table;}
+.cust-security-checkpoint-sec{width:268px; height:268px; background-color:#5B70C4; display: table;}
+.cust-children-sec{width:225px; height:225px; background-color:#BF3EBE; display: table;}
+.cust-airline-call-centre-sec{width:269px; height:269px; background-color:#47AB56; display: table;}
+.cust-baggage-sec{width:175px; height:175px; background-color:#727272; display: table;}
+.cust-rentals-parking-sec{width:222px; height:222px; background-color:#F16C48; display: table;}
+.cust-airport-stores-sec{width:224px; height:224px; background-color:#45AB58; display: table;}
+.cust-covid-guidelines-sec{width:270px; height:270px; background-color:#4599F8; display: table;}
+.cust-route-map-sec{width:224px; height:224px; background-color:#27BCA9; display: table;}
+.cust-emergency-contacts-sec{width:218px; height:218px; background-color:#E03247; display: table;}
+.cust-talk-to-us-sec{width:222px; height:222px; background-color:#FDB813; display: table;}
+
+.cust-airline-info-details, .cust-getting-to-airport-details, .cust-at-the-airport-details, .cust-security-checkpoint-details, .cust-children-details, .cust-airline-call-centre-details, .cust-baggage-details, .cust-rentals-parking-details, .cust-airport-stores-details, .cust-covid-guidelines-details, .cust-route-map-details, .cust-emergency-contacts-details, .cust-talk-to-us-details{display: table-cell; text-align: center; vertical-align: middle;}
+.cust-airline-info-details p, .cust-getting-to-airport-details p, .cust-at-the-airport-details p, .cust-security-checkpoint p, .cust-children-details p, .cust-airline-call-centre-details p. .cust-baggage-details p, .cust-rentals-parking-details p, .cust-airport-stores-details p, .cust-covid-guidelines-details p, .cust-route-map-details p, .cust-emergency-contacts-details p, .cust-talk-to-us-details p{padding:0; margin:0px;}
+*/
+/*END Bubble Css*/
+
+.bubbles-bg-container{margin:auto; width:1540px;}
+
+/*Inner Page with Pagination*/
+.paginate-container {
+	/*max-width: 1280px; width: 100%; margin: auto;*/
+	max-width: 1400px;
+	width: 100%;
+	margin: 0px auto;
+}
+.paginate-container .pager div {float: left; /* border: 0px solid gray; margin: 5px; padding: 10px; */}
+.paginate-container .pager div.disabled {opacity: 0.25;}
+.paginate-container .pager .pageNumbers a {display: inline-block; padding: 0 10px; color: gray;}
+.paginate-container .pager .pageNumbers a.active {color: orange;}
+.paginate-container .pager {overflow: hidden; float:right;}
+.paginate-container .paginate-no-scroll .items div {height: 250px;}
+.paginate-container .sec_content_holder {display: block; border-bottom: 1px solid #ffffff;}
+
+.paginate-container .pager div.firstPage,
+.paginate-container .pager div.previousPage,
+/* .paginate-container .pager div.pageNumbers, */
+.paginate-container .pager div.nextPage,
+.paginate-container .pager div.lastPage {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.paginate-container .pager div.pageNumbers a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+    color: #ffffff;
+	font-size:20px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.paginate-container .pager div.pageNumbers a.active {background-color: #ffffff; color: #000; text-decoration: none; font-weight: bold;}
+/* Style the buttons that are used to open and close the accordion panel */
+.paginate-container .accordion {
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px 20px 20px 0px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 20px;
+	font-family: 'Lato-Bold', Tahoma, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height:52px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .paginate-container .active, .paginate-container .accordion:hover {background-color: #ff0000;} */
+
+/* Style the accordion panel. Note: hidden by default */
+.paginate-container .panel {
+    border-left: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 25px;
+    margin: 0px 0px 20px 48px;
+    display: none;
+    overflow: hidden;    
+} 
+.paginate-container .accordion img {margin-right: 25px;}
+.paginate-container .panel p {margin: 0px; margin-bottom:20px; font-family: 'Lato-Light', Tahoma, Helvetica, sans-serif; font-size:18px; line-height:24px; }
+.paginate-container .panel p a{color:#ffffff;}
+.paginate-container .panel .pmbot{ margin-bottom:0px;}
+.paginate-container .accordion .plus {position: relative; top:1px}
+.paginate-container .accordion .minus {display: none; position: relative; top:-5px}
+.paginate-container .accordion.active .plus {display: none;}
+.paginate-container .accordion.active .minus {display: inline-block;}
+
+.paginate-container-imgTitlesec-fl{float:left; width:20%;}
+.paginate-container-accordian-fl{float:left; width:80%;}
+.tab-container-fl{float:left; width:20%;}
+.tab-container-fr{float:left; width:80%;}
+.paginate-container-accordian-fl .paginate {
+  max-height: 550px;
+  overflow-y: auto;
+  padding-right: 20px;
+}
+/* width */
+.paginate-container-accordian-fl .paginate::-webkit-scrollbar {width: 10px;}
+/* Track */
+.paginate-container-accordian-fl .paginate::-webkit-scrollbar-track {border: 0px solid #bdbdbd; border-radius: 2px; background:rgba(255,255,255,0.2) ;} 
+/* Handle */
+.paginate-container-accordian-fl .paginate::-webkit-scrollbar-thumb {background: #ffffff; border-radius: 2px;}
+/* Handle on hover */
+.paginate-container-accordian-fl .paginate::-webkit-scrollbar-thumb:hover {background: #ffffff;}
+/* End Tab Holder */
+
+.paginate-container-imgTitlesec{padding-right:50px;}
+.paginate-container-imgTitlesec .bubbleImg-sec{/*float:left*/margin:0; padding:0;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded{border-radius: 100%; display: table-cell; text-align: center; vertical-align: middle; height: 136px; width:136px;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgOne{background-color:#727272;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgTwo{background-color:#636167;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgThree{background-color:#1FBFE3;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgFour{background-color:#F16C48;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgFive{background-color:#BF3EBE;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgSix{background-color:#5B70C4;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgSeven{background-color:#727272;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgEight{background-color:#727272;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgNine{background-color:#727272;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgTen{background-color:#727272;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgEleven{background-color:#727272;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgTwelve{background-color:#727272;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgThirteen{background-color:#727272;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-bgFourteen{background-color:#45ab58;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-inner-airportServices {background-color:#35d1b1;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded-inner-emergencyContact {background-color: #e03247;}
+.paginate-container-imgTitlesec .bubbleImg-sec .bubble-rounded img{width:80px;}
+/*.paginate-container-imgTitlesec .bubbleTitle{padding-top:53px; padding-left: 25px; float:left}*/
+.paginate-container-imgTitlesec .bubbleTitle{padding-top:0px; padding-left:0px; margin-top:25px;}
+.paginate-container-imgTitlesec .bubbleTitle h2{font-size:28px; line-height:36px; margin:0; font-weight: normal; font-family: 'Lato-Bold', Tahoma, Helvetica, sans-serif;}
+.paginate-container-imgTitlesec .bubbleTitle p{font-size:22px; line-height:30px; margin:0; margin-top:10px; font-family: 'Lato-Regular', Tahoma, Helvetica, sans-serif;}
+.paginate-container-imgTitlesec .cust-back-btn{margin-top:200px;}
+
+.textbldunrln{ text-decoration:underline; font-weight:bold;}
+.paginate-pLeft{padding-left:170px;}
+.paginate-mTop{margin-top:-20px;}
+
+.bubble-talkTous-sec{ position:fixed; right:100px; bottom:150px}
+.bubble-talkTous-sec .bubble-talkTOus{ background-color:#FDB813; border-radius: 100%; display: table-cell; text-align: center; vertical-align: middle; height: 134px; width:134px;}
+.bubble-talkTous-sec .bubble-talkTOus img{ width:80px;}
+.bubble-talkTous-sec a{color:#FFF; text-decoration:none;}
+
+.bubble-backBtn-sec{position:fixed; top:15%; right:-420px; display:none}
+.bubble-backBtn-sec a{color:#000; font-family: 'Lato-Bold', Tahoma, Helvetica, sans-serif; font-size:22px; text-decoration:none;}
+.bubble-backBtn-sec .bubble-backBtn-bg{background-color:rgb(255,255,255, 0.5); display: table-cell; text-align: left; vertical-align: middle; height:700px; width:700px; border-radius: 100%; padding-left:14%;}
+/*END Inner Page with Pagination*/
+
+/*Footer Css*/
+.cust-footer{padding:10px 0px; position:fixed; width:100%; bottom:0;}
+.custBGcolor{background-color:#ffffff;}
+.cust-footer .cust-footer-container{max-width:1280px; width:100%; margin:0 auto;}
+.cust-footer .cust-footer-container-inner .fl{float:left;}
+.cust-footer .cust-footer-container-inner .fr{float:right;}
+.cust-footer .cust-footer-asure-logo img{width:180px; padding-top:8px}
+.cust-footer .cust-footer-gophygital-logo{display:inline-block; padding-top:6px}
+.cust-footer .cust-footer-gophygital-logo span{display: inline-block; vertical-align: middle; color:#000; margin-right:10px;}
+.cust-footer .cust-footer-gophygital-logo img{width:100px; vertical-align: middle;}
+
+/* Tab Holder */
+.cust-tab-holder .tabDataContainer {overflow: hidden; margin-top: 25px;}
+.cust-tab-holder .filterDiv {
+  float: left;
+  color: #ffffff;  
+  text-align: center;
+  display: none;  
+}
+.cust-tab-holder .show {display: block;}
+.cust-tab-holder .btnContainer {border-bottom: 1px solid #313131;}
+.cust-tab-holder .btn {
+  font-family: 'Lato-Bold', Tahoma, Helvetica, sans-serif;
+  border: none;
+  outline: none;
+  padding: 12px 30px;  
+  cursor: pointer;
+  background: none;  
+  color: #fff;
+  font-size: 20px;
+
+}
+.cust-tab-holder .btn:hover {background: none;}
+.cust-tab-holder .btn.active {
+  background: none;
+  color: white;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: -1px;
+}
+
+.cust-tab-holder .tabDataContainer .custRow {
+  position: relative;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.cust-tab-holder .tabDataContainer .custCol-4 {
+  float: left;
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+}
+.cust-tab-holder .tabDataContainer .custCol-4 .inner {
+  margin: 0px 10px;
+   /*background: rgba(255,255,255,0.2);
+ -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;*/
+}
+.shopAndDineImgHolder,
+.shopAndDineImgHolder img {
+  /*-webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;*/
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.shopAndDineImgHolder img {
+  /*max-width: 400px;*/
+  width: 100%;
+}
+.shopAndDineContent {
+  margin-top: -120px;
+  background: rgba(255,255,255,0.2);
+  padding: 150px 20px 20px 20px;
+  text-align: left;
+  height: 150px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.AirportServicesContent {height: 200px;}
+.shopAndDineContent h2,
+.shopAndDineContent_Inner_RP h2 {
+  font-family: 'Lato-Bold', Tahoma, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: normal;
+  margin-top: 0px;
+}
+.shopAndDineContent p,
+.shopAndDineContent_Inner_RP p {
+  font-family: 'Lato-Regular', Tahoma, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: normal;
+}
+.shopAndDineLink {text-decoration: none;}
+
+.tabDataContainerInnerTab .show {width: 100%;}
+.tabDataContainerInnerTab .filterDiv {margin-bottom: 20px;}
+.shopAndDineImgHolder_Inner_LP {float: left; width: 230px; text-align: left;}
+.shopAndDineContent_Inner_RP {float: left; width: 75%; text-align: left;}
+.shopAndDineImgHolder_Inner_LP img {
+  max-width: 210px;
+  width: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.shopAndDineContent_Inner_RP h2 {margin-top: 20px;}
+
+.tabDataContainerInnerTab {overflow-y: auto !important; max-height: 450px;}
+/* width */
+.tabDataContainerInnerTab::-webkit-scrollbar {width: 10px;}
+/* Track */
+.tabDataContainerInnerTab::-webkit-scrollbar-track {border: 0px solid #bdbdbd; border-radius: 2px; background:rgba(255,255,255,0.2) ;} 
+/* Handle */
+.tabDataContainerInnerTab::-webkit-scrollbar-thumb {background: #ffffff; border-radius: 2px;}
+/* Handle on hover */
+.tabDataContainerInnerTab::-webkit-scrollbar-thumb:hover {background: #ffffff;}
+/* End Tab Holder */
+
+.divPranaamLogo {background-color: #ffffff; border-radius: 10px; padding: 10px; width: 100%; text-align: center;}
+.imgPranaamLogo {max-width: 250px; width: 100%; height: auto;}
+.listAirportServices {
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 20px;
+  font-family: 'Lato-Light', Tahoma, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 15px;
+}
+.linkAirportServicesOther {
+  font-family: 'Lato-Regular', Tahoma, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 50px;
+  text-decoration: underline;
+  margin-left: 12px;
+}
+.linkAirportServicesOther:hover {  
+  text-decoration: none;
+}
+.listOtherServices {
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 20px;
+  font-family: 'Lato-Light', Tahoma, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 15px;
+}
+.tblOtherServices {
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 20px;
+  font-family: 'Lato-Light', Tahoma, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;  
+}
+.tblOtherServices {  
+  border-collapse: collapse;
+  width: 100%;
+}
+.tblOtherServices td, .tblOtherServices th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tblOtherServices tr {background: rgba(255,255,255,0.2);}
+.tblOtherServices th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: rgba(255,255,255,0.4);
+  color: white;
+}

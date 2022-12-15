@@ -1,0 +1,214 @@
+﻿
+@{
+    ViewBag.Title = "Shop &amp; Dine | Duty Free &amp; Shopping";
+    Layout = "~/Views/Shared/_LayoutLandings.cshtml";
+}
+
+<div class="paginate-container">
+    <div class="tab-container-fl">
+        <div class="paginate-container-imgTitlesec">
+            <div class="bubbleImg-sec">
+                <div class="bubble-rounded bubble-rounded-bgFourteen"> <img src="~/images/icons/shop-and-dine-icon.svg" alt="shop-and-dine-icon"> </div>
+            </div>
+            <div class="bubbleTitle">
+                <h2>Duty Free &amp; Shopping</h2>
+                <p>Shop Local and Global</p>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="cust-back-btn">
+                <a href="/Landing/ShopAndDine"><img src="~/images/icon-back-button.svg" alt="Back Button Icon"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tab-container-fr">
+        <div class="cust-tab-holder">
+            <!-- Control buttons -->
+            <div id="myBtnContainer" class="btnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('departure')"> Departure</button>
+                <button class="btn" onclick="filterSelection('arrival')"> Arrival</button>
+            </div>
+
+            <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="tabDataContainer tabDataContainerInnerTab">
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/footwear-and-leather.jpg" alt="footwear-and-leather">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Branded Leather Boutique shop</h2>
+                            <p>Shop for genuine leather shoes and accessories like belts, wallets, jackets, bags etc. across leading brands.</p>
+                            <p class="mtop40">Location: Terminal 1, 2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/branded-beauty-products.jpg" alt="branded-beauty-products">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Branded Beauty Product shop</h2>
+                            <p>Parcos is India's pioneering perfumes and cosmetics multi-brands outlet with qualitative ambience, guaranteed authenticity and expertise. Shop by category Skin care, Hair care, Fragrances, Men's grooming, Makeup. Gift boxes & sets. Perfumes for everyone. Men & Women Deodorants.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/womens-apparel.jpg" alt="womens-apparel">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Women Apparel shop</h2>
+                            <p>The store offers different styles of leggings, ethnic legwear like harem pants, dhotis & patialas, palazzos, pants, jeggings, and denim in various fits.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/atm-counter.jpg" alt="atm-counter">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>ATM Counter</h2>
+                            <p>ATM machines at main touch points across the terminal.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/gadjet-shop.jpg" alt="gadjet-shop">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Branded Electronic Shop</h2>
+                            <p>Wide range of electronic products ranging mobile phones, tablets, laptops and travel essential electronic accessories ranging chargers, adopters etc.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/ayurveda-wellness-shop.jpg" alt="ayurveda-wellness-shop">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Branded Ayurvedic Life style shop</h2>
+                            <p>Ayurvedic medicine ("Ayurveda" for short) is one of the world's oldest holistic ("whole-body") healing systems. ... It's based on the belief that health and wellness depend on a delicate balance between the mind, body, and spirit.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/magazine-shop.jpg" alt="magazine-shop">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Magazine Shop</h2>
+                            <p>Value for Money Magazine vending concept.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure arrival">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/gift-shop.jpg" alt="gift-shop">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Convenience Shopping</h2>
+                            <p>Fulfills the traveller's need of last-minute needs of travel accessories, books, magazines and a variety of chocolates to mention a few.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure arrival">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/money-exchange-counter.jpg" alt="money-exchange-counter">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Money Exchange Counter</h2>
+                            <p>Seamless and safe currency exchange.</p>
+                            <p class="mtop40">Location: Terminal 2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/baggage-wrapping-facility.jpg" alt="baggage-wrapping-facility">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Baggage Wrapping Facility</h2>
+                            <p>Unique concept for safety of luggage mainly in long haul flights.</p>
+                            <p class="mtop40">Location: Terminal 2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/khadi-emporium-shop.jpg" alt="khadi-emporium-shop">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Khadi Emporium shop</h2>
+                            <p>A house of Khadi fabric, offering shirts, kurtas Knitwears, Kids & Women's Collection etc. Khadi Emporium is adding value yo your lifestyle in a traditional way.</p>
+                            <p class="mtop40">Location: Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/duty-free-and-shopping/handicraft.jpg" alt="handicraft">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Handloom Handicraft shop</h2>
+                            <p>Blend of Indian and Traditional Handicrafts, shop for Authentic Indian Art and Craft.</p>
+                            <p class="mtop40">Location: Terminal 2</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+<script>
+
+    // Add active class to the current control button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>

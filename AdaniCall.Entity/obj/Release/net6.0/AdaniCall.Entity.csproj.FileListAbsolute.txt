@@ -1,0 +1,12 @@
+D:\AdaniCall\AdaniCall.Entity\bin\Release\net6.0\AdaniCall.Entity.deps.json
+D:\AdaniCall\AdaniCall.Entity\bin\Release\net6.0\AdaniCall.Entity.dll
+D:\AdaniCall\AdaniCall.Entity\bin\Release\net6.0\AdaniCall.Entity.pdb
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\AdaniCall.Entity.csproj.AssemblyReference.cache
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\AdaniCall.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\AdaniCall.Entity.AssemblyInfoInputs.cache
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\AdaniCall.Entity.AssemblyInfo.cs
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\AdaniCall.Entity.csproj.CoreCompileInputs.cache
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\AdaniCall.Entity.dll
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\refint\AdaniCall.Entity.dll
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\AdaniCall.Entity.pdb
+D:\AdaniCall\AdaniCall.Entity\obj\Release\net6.0\ref\AdaniCall.Entity.dll

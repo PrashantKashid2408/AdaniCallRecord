@@ -1,0 +1,114 @@
+﻿
+@{
+    ViewBag.Title = "Airport Services";
+    Layout = "~/Views/Shared/_LayoutLandings.cshtml";
+}
+
+<div class="paginate-container">
+    <div class="tab-container-fl">
+        <div class="paginate-container-imgTitlesec">
+            <div class="bubbleImg-sec">
+                <div class="bubble-rounded bubble-rounded-inner-airportServices"> <img src="~/images/icons/icon-airport-services.svg" alt="icon-airport-services"> </div>
+            </div>
+            <div class="bubbleTitle">
+                <h2>Services we offer</h2>
+                <p>We offer world class Airport Services to make your travel experience memorable.</p>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="cust-back-btn">
+                <a href="/Landing/index"><img src="~/images/icon-back-button.svg" alt="Back Button Icon"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="tab-container-fr">
+        <div class="cust-tab-holder">
+            <!-- Control buttons -->
+            <div id="myBtnContainer" class="btnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('departure')"> Departure</button>
+                <button class="btn" onclick="filterSelection('arrival')"> Arrival</button>
+            </div>
+
+            <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="tabDataContainer">
+                <div class="custRow">
+                    <div class="filterDiv custCol-4 departure arrival">
+                        <a href="/Landing/AirportServicesPranaamMeetAndGreetService" target="_parent" class="shopAndDineLink">
+                            <div class="inner">
+                                <div class="shopAndDineImgHolder">
+                                    <img src="~/images/airport-services/pranaam-meet-and-greet.jpg" alt="">
+                                </div>
+                                <div class="shopAndDineContent AirportServicesContent">
+                                    <h2>Pranaam Meet and Greet Service</h2>
+                                    <p>Pranaam Meet and Greet Service is designed to provide guests a seamless and stress-free experience while travelling through Adani Airports.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="filterDiv custCol-4 departure">
+                        <a href="/Landing/AirportServicesBaggageWrapping" target="_parent" class="shopAndDineLink">
+                            <div class="inner">
+                                <div class="shopAndDineImgHolder">
+                                    <img src="~/images/airport-services/baggage-wrapping.jpg" alt="">
+                                </div>
+                                <div class="shopAndDineContent AirportServicesContent">
+                                    <h2>Baggage Wrapping Service</h2>
+                                    <p>Secure your luggage.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="filterDiv custCol-4 departure arrival">
+                        <a href="/Landing/AirportServicesAirportEntryTicket" target="_parent" class="shopAndDineLink">
+                            <div class="inner">
+                                <div class="shopAndDineImgHolder">
+                                    <img src="~/images/airport-services/airport-entry-ticket.jpg" alt="">
+                                </div>
+                                <div class="shopAndDineContent AirportServicesContent">
+                                    <h2>Airport Entry Ticket</h2>
+                                    <p>The warmest welcomes & goodbyes take place here. Gateway to Goodness.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="filterDiv custCol-4 departure arrival">
+                        <a href="/Landing/AirportServicesLostAndFound" target="_parent" class="shopAndDineLink">
+                            <div class="inner">
+                                <div class="shopAndDineImgHolder">
+                                    <img src="~/images/airport-services/lost-and-found.jpg" alt="">
+                                </div>
+                                <div class="shopAndDineContent AirportServicesContent">
+                                    <h2>Lost &amp; Found</h2>
+                                    <p>Misplaced something? Help us help you.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="mtop40"><a href="/Landing/AirportServicesOther" target="_parent" class="linkAirportServicesOther">Other Services</a></div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<script>
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>

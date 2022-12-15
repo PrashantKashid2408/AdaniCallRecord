@@ -1,0 +1,114 @@
+﻿
+@{
+    ViewBag.Title = "Shop &amp; Dine";
+    Layout = "~/Views/Shared/_LayoutLandings.cshtml";
+}
+
+<div class="paginate-container">
+    <div class="tab-container-fl">
+        <div class="paginate-container-imgTitlesec">
+            <div class="bubbleImg-sec">
+                <div class="bubble-rounded bubble-rounded-bgFourteen"> <img src="~/images/icons/shop-and-dine-icon.svg" alt="shop-and-dine-icon"> </div>
+            </div>
+            <div class="bubbleTitle">
+                <h2>Shop &amp; Dine</h2>
+                <p>This is not a transit point but a destination in itself.</p>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="cust-back-btn">
+                <a href="/Landing/index"><img src="~/images/icon-back-button.svg" alt="Back Button Icon"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="tab-container-fr">
+        <div class="cust-tab-holder">
+            <!-- Control buttons -->
+            <div id="myBtnContainer" class="btnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('departure')"> Departure</button>
+                <button class="btn" onclick="filterSelection('arrival')"> Arrival</button>
+            </div>
+
+            <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="tabDataContainer">
+                <div class="custRow">
+                    <div class="filterDiv custCol-4 departure arrival">
+                        <a href="/Landing/ShopAndDineDutyFreeAndShopping" target="_parent" class="shopAndDineLink">
+                            <div class="inner">
+                                <div class="shopAndDineImgHolder">
+                                    <img src="~/images/shop-and-dine/shop-and-dine-duty-free-and-shopping.jpg" alt="">
+                                </div>
+                                <div class="shopAndDineContent">
+                                    <h2>Duty Free &amp; Shopping</h2>
+                                    <p>Apparels, perfumes, cosmetics, electronics, &amp; gifting options awaits you.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="filterDiv custCol-4 departure arrival">
+                        <a href="/Landing/ShopAndDineRestaurantsDine" target="_parent" class="shopAndDineLink">
+                            <div class="inner">
+                                <div class="shopAndDineImgHolder">
+                                    <img src="~/images/shop-and-dine/shop-and-dine-dinenew.jpg" alt="">
+                                </div>
+                                <div class="shopAndDineContent">
+                                    <h2>Dine</h2>
+                                    <p>From finger good to fine dining, Ahmedabad airport offers mouthwatering culinary experience 	to savor your taste buds.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="filterDiv custCol-4 departure">
+                        <a href="/Landing/ShopAndDineRelax" target="_parent" class="shopAndDineLink">
+                            <div class="inner">
+                                <div class="shopAndDineImgHolder">
+                                    <img src="~/images/shop-and-dine/shop-and-dine-relax.jpg" alt="">
+                                </div>
+                                <div class="shopAndDineContent">
+                                    <h2>Relax</h2>
+                                    <p>Explore the goodness of Spa &amp; Lounges before taking off.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="filterDiv custCol-4 departure">
+                        <a href="/Landing/ShopAndDineSmokingLounge" target="_parent" class="shopAndDineLink">
+                            <div class="inner">
+                                <div class="shopAndDineImgHolder">
+                                    <img src="~/images/shop-and-dine/shop-and-dine-smoking-lounge.jpg" alt="">
+                                </div>
+                                <div class="shopAndDineContent">
+                                    <h2>Smoking Lounge</h2>
+                                    <p>Smoking Lounge and Sales Kiosk</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+
+</div>
+
+
+<script>
+
+    // Add active class to the current control button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>

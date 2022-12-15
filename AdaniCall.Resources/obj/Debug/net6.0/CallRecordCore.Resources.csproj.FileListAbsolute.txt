@@ -1,0 +1,102 @@
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.deps.json
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.AssemblyReference.cache
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.resources
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.de.resources
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.GenerateResource.cache
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfoInputs.cache
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfo.cs
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.CoreCompileInputs.cache
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\refint\CallRecordCore.Resources.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.pdb
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\ref\CallRecordCore.Resources.dll
+D:\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.deps.json
+D:\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.AssemblyReference.cache
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.resources
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.de.resources
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.GenerateResource.cache
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.GeneratedMSBuildEditorConfig.editorconfig
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfoInputs.cache
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfo.cs
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.CoreCompileInputs.cache
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.dll
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\refint\CallRecordCore.Resources.dll
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\ref\CallRecordCore.Resources.dll
+D:\Project\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.deps.json
+D:\Project\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\Project\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\Project\CallRecordCore\CallRecordCore.Resources\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.AssemblyReference.cache
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.resources
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.de.resources
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.GenerateResource.cache
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfoInputs.cache
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfo.cs
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.CoreCompileInputs.cache
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.dll
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\refint\CallRecordCore.Resources.dll
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\Project\CallRecordCore\CallRecordCore.Resources\obj\Debug\net6.0\ref\CallRecordCore.Resources.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.deps.json
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.AssemblyReference.cache
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.resources
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.de.resources
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.GenerateResource.cache
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.GeneratedMSBuildEditorConfig.editorconfig
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfoInputs.cache
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfo.cs
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.CoreCompileInputs.cache
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\refint\CallRecordCore.Resources.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\delta\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\ref\CallRecordCore.Resources.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.deps.json
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.AssemblyReference.cache
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.resources
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.de.resources
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.GenerateResource.cache
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.GeneratedMSBuildEditorConfig.editorconfig
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfoInputs.cache
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfo.cs
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.CoreCompileInputs.cache
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\refint\CallRecordCore.Resources.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\ref\CallRecordCore.Resources.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.deps.json
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.AssemblyReference.cache
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.resources
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.Resource.de.resources
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.GenerateResource.cache
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfoInputs.cache
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.AssemblyInfo.cs
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.csproj.CoreCompileInputs.cache
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\refint\CallRecordCore.Resources.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Resources\obj\Debug\net6.0\ref\CallRecordCore.Resources.dll

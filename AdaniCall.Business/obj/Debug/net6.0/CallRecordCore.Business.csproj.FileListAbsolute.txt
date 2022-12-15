@@ -1,0 +1,120 @@
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.deps.json
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.pdb
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.pdb
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.pdb
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.AssemblyReference.cache
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfoInputs.cache
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfo.cs
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CoreCompileInputs.cache
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CopyComplete
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\refint\CallRecordCore.Business.dll
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.pdb
+C:\Users\prashant.kashid\Desktop\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\ref\CallRecordCore.Business.dll
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.deps.json
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.dll
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.pdb
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.dll
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.dll
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.pdb
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.pdb
+D:\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.AssemblyReference.cache
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfoInputs.cache
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfo.cs
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CoreCompileInputs.cache
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CopyComplete
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.dll
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\refint\CallRecordCore.Business.dll
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.pdb
+D:\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\ref\CallRecordCore.Business.dll
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.deps.json
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.dll
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.pdb
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.dll
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.dll
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.pdb
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.pdb
+D:\Project\CallRecordCore\CallRecordCore.Business\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.AssemblyReference.cache
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfoInputs.cache
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfo.cs
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CoreCompileInputs.cache
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CopyComplete
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.dll
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\refint\CallRecordCore.Business.dll
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.pdb
+D:\Project\CallRecordCore\CallRecordCore.Business\obj\Debug\net6.0\ref\CallRecordCore.Business.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.deps.json
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.pdb
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.pdb
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.pdb
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.AssemblyReference.cache
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfoInputs.cache
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfo.cs
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CoreCompileInputs.cache
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CopyComplete
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\refint\CallRecordCore.Business.dll
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.pdb
+D:\delta\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\ref\CallRecordCore.Business.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.deps.json
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.pdb
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.pdb
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.pdb
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.AssemblyReference.cache
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfoInputs.cache
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfo.cs
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CoreCompileInputs.cache
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CopyComplete
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\refint\CallRecordCore.Business.dll
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.pdb
+D:\alfa\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\ref\CallRecordCore.Business.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.deps.json
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Business.pdb
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Entity.pdb
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Resources.pdb
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\CallRecordCore.Utility.pdb
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\bin\Debug\net6.0\de\CallRecordCore.Resources.resources.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.AssemblyReference.cache
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfoInputs.cache
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.AssemblyInfo.cs
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CoreCompileInputs.cache
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.csproj.CopyComplete
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\refint\CallRecordCore.Business.dll
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\CallRecordCore.Business.pdb
+D:\AdaniCall New\CallRecordCoreLatest\CallRecordCore.Business\obj\Debug\net6.0\ref\CallRecordCore.Business.dll

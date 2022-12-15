@@ -1,0 +1,52 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2022-12-08T10:35:21.3350785Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-12-08T08:07:02.6465775Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-12-08T08:06:22.1300073Z"
+    },
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2022-12-08T10:35:59.4611454Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "15882f62-ffa9-4fc9-95d9-43edb0a27e88"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Sandbox"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Sandbox"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "15882f62-ffa9-4fc9-95d9-43edb0a27e88"
+    },
+    "storage1.resourceGroupName": {
+      "Name": "storage1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Sandbox"
+    },
+    "storage1.subscriptionId": {
+      "Name": "storage1.subscriptionId",
+      "Type": "subscription",
+      "Value": "15882f62-ffa9-4fc9-95d9-43edb0a27e88"
+    }
+  }
+}

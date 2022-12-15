@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "Shop &amp; Dine | Dine";
+    Layout = "~/Views/Shared/_LayoutLandings.cshtml";
+}
+
+<div class="paginate-container">
+    <div class="tab-container-fl">
+        <div class="paginate-container-imgTitlesec">
+            <div class="bubbleImg-sec">
+                <div class="bubble-rounded bubble-rounded-bgFourteen"> <img src="~/images/icons/shop-and-dine-icon.svg" alt="shop-and-dine-icon"> </div>
+            </div>
+            <div class="bubbleTitle">
+                <h2>Dine</h2>
+                <p>Savour On The Go</p>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="cust-back-btn">
+                <a href="/Landing/ShopAndDine"><img src="~/images/icon-back-button.svg" alt="Back Button Icon"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tab-container-fr">
+        <div class="cust-tab-holder">
+            <!-- Control buttons -->
+            <div id="myBtnContainer" class="btnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('departure')"> Departure</button>
+                <button class="btn" onclick="filterSelection('arrival')"> Arrival</button>
+            </div>
+
+            <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="tabDataContainer tabDataContainerInnerTab">
+
+                <div class="filterDiv departure arrival">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/dine/cafe.jpg" alt="cafe">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Cafe</h2>
+                            <p>All Day dining serving Tea/Coffee & snacks with International & National cuisines.</p>
+                            <p class="mtop40">Location: SHA & Non SHA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure arrival">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/dine/casual-dining.jpg" alt="casual-dining">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Casual Dining</h2>
+                            <p>Sit-down dining with elaborate menu & exquisite service, a perfect gastronomical experience.</p>
+                            <p class="mtop40">Location: SHA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure arrival">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/dine/food-court.jpg" alt="food-court">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Food Court</h2>
+                            <p>Experience food with wide variety at its best & Indulge in delectable recipes that will captivate your taste buds. Caters to breakfast, lunch, dinner, evening & midnight snacks.</p>
+                            <p class="mtop40">Location: SHA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv departure arrival">
+                    <div class="inner">
+                        <div class="shopAndDineImgHolder_Inner_LP">
+                            <img src="~/images/shop-and-dine/dine/grab-and-go.jpg" alt="grab-and-go">
+                        </div>
+                        <div class="shopAndDineContent_Inner_RP">
+                            <h2>Grab & Go</h2>
+                            <p>Self-served take away counters offering food & beverages.</p>
+                            <p class="mtop40">Location: SHA & Non SHA</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+<script>
+
+    // Add active class to the current control button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>

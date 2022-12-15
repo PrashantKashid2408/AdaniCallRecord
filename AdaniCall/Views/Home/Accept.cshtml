@@ -1,0 +1,178 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html>
+<head>    
+    <meta charset="utf-8" />
+    <!-- for Internet IE Explore new elements are render like HTML 5. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="YES" name="apple-touch-fullscreen">
+
+    <!-- for apple mobile capable -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" href="~/images/favicon.ico">
+    <link href="~/css/style.css?v=9" rel="stylesheet">
+    <script src="~/js/jquery-3.6.0.min.js"></script>
+    <script src="~/js/paginga.jquery.min.js"></script>
+    @*@Scripts.Render("~/bundles/bootstrap")*@
+
+    <link href="~/Content/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="~/Content/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css" rel="stylesheet" />
+    <link href="~/Content/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="~/Content/plugins/icheck-bootstrap/icheck-bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/dist/css/adminlte.min.css" rel="stylesheet" />
+    <link href="~/Content/plugins/bootstrap-dialog/bootstrap-dialog.min.css" rel="stylesheet" />
+
+    <script src="~/Scripts/common/global.js"></script>
+    <script src="~/Scripts/common/common.js?v=1"></script>
+    <script src="~/js/common.js?v=10"></script>
+    <script src="~/js/common.js?v=10"></script>
+    @*@Scripts.Render("~/bundles/bootstrap")*@
+    <script src="~/Scripts/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/plugins/bs4/bootstrap-dialog.js"></script>
+    <script src="~/Scripts/plugins/bs4/bootstrap-dialog-custom-bs4.js"></script>
+    <script src="~/Scripts/dist/js/demo.js"></script>
+
+    <script src="~/Scripts/Common/common.js?v=1"></script>
+
+
+    
+
+
+
+</head>
+
+<body>
+    <div class="mainContainerAccept">
+        <div class="mainContainer">
+            <div class="main_header1">
+                <div class="textLeft" id="dvLog" style="display:none"></div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="main_header" style="visibility: hidden;">
+                <h1 class="kiosk_name" id="lblKioskName" style="display:none"></h1>
+                <div class="textRight"><img src="~/images/logos/adani_airport_logo.png" class="logo_top" alt="adani airports"> </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="video_container_holder">
+                <div class="video_container_accept">
+                    <div class="video_container_accept_inner">
+
+                        <div class="all_stepsAccept">
+                            <div class="all_stepsAccept_inner">
+
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div id="remoteVideoContainer" class="videoContainerAccept" style="width:100%;" hidden></div>
+                        <canvas id="cnFaceDetect" class="cnFaceDetect" width="788" height="590" style="display:none;"></canvas>
+                        <div class="clearfix"></div>
+                    </div>
+                    <input id="user-access-token"
+                           type="text"
+                           value="@ViewBag.AcceptToken"
+                           placeholder="User access token"
+                           style="margin-bottom:1em; width: 500px;display:none;"
+                           text="" />
+                    <button id="initialize-call-agent" type="button" style="display:none">Initialize Call Agent</button>
+                    <input type="hidden" id="hdnCallStatus" value="" />
+                    <input type="hidden" id="hdnCallLanguage" value="3" />
+                    <input id="callee-acs-user-id"
+                           type="text"
+                           value=""
+                           placeholder="Enter callee's ACS user identity in format: '8:acs:resourceId_userId'"
+                           style="margin-bottom:1em; width: 500px; display: none;" />
+                    <div class="video_button_container">
+                        <ul class="btnlist">
+                            <li style="display:none;">
+                                <span>
+                                    <button id="start-call-button" type="button" disabled="true" class="btn1 btn-disable"><img src="~/images/button-icon/startcall_ic.svg" alt="startcall_ic.svg" /> Start call</button>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <button id="hangup-call-button" type="button" disabled="true" class="btn2"><img src="~/images/button-icon/hangcall_ic.svg" alt="hangcall_ic.svg" /> Hang up</button>
+                                    <button id="hdnhangup-call-button" type="button" style="visibility:hidden;height:0px; padding: 0px; border: 0px; line-height: 0px; position: absolute;"></button>
+                                </span>
+                            </li>
+                            <li style="display: flex; justify-content: center; width: 62% !important;">
+                                <span>
+                                    <button id="accept-call-button" type="button" disabled="true" class="btn3" style="padding: 12px 25px 12px 15px; font-size: 30px; line-height: 39px; "><img src="~/images/button-icon/acceptcall_ic.svg" alt="acceptcall_ic.svg" style="width: 39px; height: 39px;" /> Accept</button>
+                                </span>
+                            </li>
+                            <li style="display:none;">
+                                <span>
+                                    <button id="start-video-button" type="button" class="btn4" style="display:none"><img src="~/images/button-icon/start_video_ic.svg" alt="start_video_ic.svg" /> Start video</button>
+                                </span>
+                            </li>
+                            <li style="display:none;">
+                                <span>
+                                    <button id="stop-video-button" type="button" class="btn5" style="display:none"><img src="~/images/button-icon/stopvideo_ic.svg" alt="stopvideo_ic.svg" /> Stop video</button>
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="connectedLabel" style="color: #13bb13;" hidden>Call is connected!</div>
+                    <div id="localVideoContainer" style="width: 30%;" hidden>Local video stream:</div>
+                    <!-- points to the bundle generated from client.js -->
+                    <script src="~/bundle.js?v=6"></script>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="main_footer" style="visibility: hidden;">
+                <div class="custom_inner_footer">
+                    <div class="fLeft"><img src="~/images/logos/microsoft_azure_logo.png" class="microsoft_logo" alt="Microsoft Azure"></div>
+                    <div class="fRight">@*<a href="https://localhost:44391/TermsAndConditions" class="links footerLink" target="_blank" rel="noopener">Terms And Conditions</a> &nbsp;|&nbsp;*@ <span class="poweredbytext">Powered by</span> <img src="~/images/logos/gophygital_logo.png" class="gophygital_logo" alt="Gophygital"> </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix">&nbsp;</div>
+    </div>
+    
+    <!-- jQuery -->
+    @*<script src="~/Scripts/jquery-2.1.3.js"></script>*@
+    <!-- Bootstrap 4 -->
+    @*<script src="~/Scripts/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>*@
+    <!-- AdminLTE App -->
+    @*<script src="~/Scripts/dist/js/adminlte.min.js"></script>*@
+    <script id="scriptLoader" type="application/htmlMessage">
+        <div class="overlay"></div>
+        <div class="loading-img"></div>
+    </script>
+    <script id="scriptLoaderSmall" type="application/htmlMessage">
+        <div class="overlay"></div>
+        <div class="loading-img-small"></div>
+    </script>
+    <script id="scriptAlert" type="application/htmlMessage">
+        <div class="alert alert-[[CLASS]] alert-dismissable" style="margin-left: 0px;">
+            <!--<i class="fa fa-[[ICON]]"></i>-->
+            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+            [[MESSAGE]]
+        </div>
+    </script>
+    <script>
+        $("#initialize-call-agent").click();
+    </script>
+</body>
+</html>
+
+
