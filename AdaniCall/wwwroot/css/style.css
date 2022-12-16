@@ -464,3 +464,30 @@ span.btnlink {
 		max-height: 100%;
 	}
 }
+#divConversationCall .modal-header .bootstrap-dialog-title {
+	font-size: 30px;
+}
+
+#divConversationCall .modal-body .bootstrap-dialog-message {
+	font-size: 30px;
+	text-align: center;
+}
+
+#divConversationCall .modal-footer {
+	display: flex !important;
+	justify-content: center !important;
+}
+
+	#divConversationCall .modal-footer .btn {
+		width: auto;
+		font-size: 25px;
+		margin: 0px;
+	}
+
+		#divConversationCall .modal-footer .btn.btn-danger {
+			margin-right: 10px;
+		}
+
+		#divConversationCall .modal-footer .btn.btn-success {
+			margin-left: 10px;
+		}

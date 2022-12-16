@@ -1,0 +1,258 @@
+LogTime : 4:02:36 PM 
+Module Name : AdaniCall.Controllers.CallRecordingsController (StartRecordingAsync(sCallID=aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWpwd2UtMDUuY29udi5za3lwZS5jb20vY29udi92eWx2dHBZZThVT1lwM29kQXpscWJ3P2k9MSZlPTYzODA2MDI3NzgyMTMyNTc1MQ,recordingFormat:))
+
+Error Source : Azure.Communication.CallAutomation
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+Repeatability-Result: REDACTED
+x-ms-client-request-id: c4e9ca4a-1ed3-462b-a8d0-17d9b8e0bc33
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 10:32:35 GMT
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:03:03 PM 
+Module Name : AdaniCall.Controllers.CallRecordingsController (StartRecordingAsync(sCallID=aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWpwd2UtMDguY29udi5za3lwZS5jb20vY29udi8wYk1PQXlxWHEwNmFMaDBDS29JUll3P2k9MTkmZT02MzgwNjAyNzQwNTEwMDQ5MzE,recordingFormat:))
+
+Error Source : Azure.Communication.CallAutomation
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+Repeatability-Result: REDACTED
+x-ms-client-request-id: 37b6aeba-dd8c-4d04-8522-bd1da680b23c
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 10:33:03 GMT
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:03:52 PM 
+Module Name : AdaniCall.Controllers.CallRecordingsController (StartRecordingAsync(sCallID=aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWFzc2UtMDkuY29udi5za3lwZS5jb20vY29udi9ySWRxM253VEdrS0pieURrejFFMjV3P2k9MSZlPTYzODA2MTYyNzYyMTc0MDM3Nw,recordingFormat:))
+
+Error Source : Azure.Communication.CallAutomation
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+Repeatability-Result: REDACTED
+x-ms-client-request-id: c9ee9394-1ed6-49c0-92ab-e8c945094a5c
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 10:33:51 GMT
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:05:12 PM 
+Module Name : AdaniCall.Controllers.CallRecordingsController (StartRecordingAsync(sCallID=aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWFzc2UtMDkuY29udi5za3lwZS5jb20vY29udi96aXk4c2Q4MURrV2p2RFVENDlBSUt3P2k9MjEmZT02MzgwNjE2NDIzMTQyOTUyNzU,recordingFormat:))
+
+Error Source : Azure.Communication.CallAutomation
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+Repeatability-Result: REDACTED
+x-ms-client-request-id: e79de895-edd1-45d0-940d-4c178d44bad3
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 10:35:11 GMT
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:29:07 PM 
+Module Name : AdaniCall.Controllers.UserController (Accept(UserId=5))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Provided identity doesn't belong to the resource.
+Status: 401 (Unauthorized)
+ErrorCode: IdentityNotOwned
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: +GlEHJE8UUKF8kI+Y+UqEA.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: ef92a12c-8b23-427d-9013-1b13b5d9594d
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 10:59:06 GMT
+Content-Type: application/json
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:29:08 PM 
+Module Name : AdaniCall.Controllers.UserController (Accept(UserId=10))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Provided identity doesn't belong to the resource.
+Status: 401 (Unauthorized)
+ErrorCode: IdentityNotOwned
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: pTYHvX2dA0aqLLl+0T/cEA.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 57f5ad93-4ec8-4e1c-aa61-b9865fb8ccc7
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 10:59:07 GMT
+Content-Type: application/json
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:31:40 PM 
+Module Name : AdaniCall.Controllers.UserController (Accept(UserId=10))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Provided identity doesn't belong to the resource.
+Status: 401 (Unauthorized)
+ErrorCode: IdentityNotOwned
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: RjR//ivrhkCaUprcg0PZjw.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 4db2ec6d-a2c6-4075-a250-4b4d81c4a16c
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 11:01:39 GMT
+Content-Type: application/json
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:31:55 PM 
+Module Name : AdaniCall.Controllers.UserController (Accept(UserId=10))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Provided identity doesn't belong to the resource.
+Status: 401 (Unauthorized)
+ErrorCode: IdentityNotOwned
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: RPFsWjHQj0K6dfVvZ2PUMg.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: cbfff96c-cb47-4dd8-99d7-a8d8d549dd84
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 11:01:54 GMT
+Content-Type: application/json
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:33:11 PM 
+Module Name : AdaniCall.Controllers.UserController (Accept(UserId=10))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Provided identity doesn't belong to the resource.
+Status: 401 (Unauthorized)
+ErrorCode: IdentityNotOwned
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: QNt6c5k8xUC+zWgLNNZT6w.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: b1dd7e5d-5f6f-47f4-a1ce-5598a3449bdf
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 15 Dec 2022 11:03:10 GMT
+Content-Type: application/json
+
+ 
+ 
+ 
+======================================== 
+ 

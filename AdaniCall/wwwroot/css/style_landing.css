@@ -78,9 +78,19 @@ a.footerLink {position:relative; top:2px;}
 	width:100%;
 }
 .cust-container-p20{padding:0px 20px;}
-
+.call-btnContainer {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background: url(../images/container-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 /* Image Mapping Css*/
-.infraFormulationsImgClick {cursor:pointer;}
+.infraFormulationsImgClick {
+    cursor: pointer;
+}
 .infraFormulationsHoverGroup:hover {/*opacity: 0;*/ opacity: 0;}
 #infraFormulationsProjectsvg {
     position: relative;
