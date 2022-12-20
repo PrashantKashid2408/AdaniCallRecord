@@ -27,20 +27,20 @@ namespace AdaniCall.Controllers
         private const string CallRecodingActiveError = "Recording is already in progress, one recording can be active at one time.";
         private readonly string _module = "AdaniCall.Controllers.CallRecordingsController";
         private string RootPath;
-
         public ILogger<RecordingController> Logger { get; }
         static Dictionary<string, string> recordingData = new Dictionary<string, string>();
         public static string recFileFormat;
 
         public RecordingController(ILogger<RecordingController> logger, IConfiguration configuration)
         {
-            blobStorageConnectionString = configuration["BlobStorageConnectionString"];
-            containerName = configuration["BlobContainerName"];
-            callAutomationClient = new CallAutomationClient(configuration["ACSResourceConnectionString"]);
+            blobStorageConnectionString = configuration["BlobStorageConnectionString"].ToString();
+            containerName = configuration["BlobContainerName"].ToString();
+            callAutomationClient = new CallAutomationClient(configuration["ACSResourceConnectionString"].ToString());
             RootPath = configuration["RootPath"].ToString() + configuration["VideoPath"].ToString();
             callbackUri = configuration["CallBackURI"].ToString();
             Logger = logger;
         }
+
         [HttpPost]
         [Route("startRecording")]
         public async Task<IActionResult> StartRecordingAsync(RecordParams objRecordParams)
@@ -55,7 +55,6 @@ namespace AdaniCall.Controllers
                     StartRecordingOptions recordingOptions = new StartRecordingOptions(new ServerCallLocator(serverCallId));
                     var startRecordingResponse = await callAutomationClient.GetCallRecording()
                         .StartRecordingAsync(recordingOptions).ConfigureAwait(false);
-
                     Logger.LogInformation($"StartRecordingAsync response -- >  {startRecordingResponse.GetRawResponse()}, Recording Id: {startRecordingResponse.Value.RecordingId}");
 
                     var recordingId = startRecordingResponse.Value.RecordingId;
@@ -70,14 +69,11 @@ namespace AdaniCall.Controllers
                         objBF.UpdateCallTransactions(CallTransactionsDBFields.ServerCallID + "='" + serverCallId + "'," + CallTransactionsDBFields.RecordingID + "='" + recordingId + "'", CallTransactionsDBFields.UniqueCallID + "='" + uniqueCallID + "'");
                     }
 
-
-
                     return Json(recordingId);
                 }
                 else
                 {
                     return Content(HttpStatusCode.BadRequest, new { Message = "serverCallId is invalid" });
-
                 }
             }
             catch (Exception ex)
@@ -87,7 +83,7 @@ namespace AdaniCall.Controllers
                 {
                     Log.WriteLog(_module, "StartRecordingAsync(Message=" + CallRecodingActiveError + ")", ex.Source, ex.Message);
                     return Content(HttpStatusCode.BadRequest, new { Message = CallRecodingActiveError });
-                    //return BadRequest(new { Message = CallRecodingActiveError });
+                
                 }
                 return Json(new { Exception = ex });
             }

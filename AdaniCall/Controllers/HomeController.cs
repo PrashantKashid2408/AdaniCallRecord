@@ -89,7 +89,7 @@ namespace AdaniCall.Controllers
                     }
                 }
                 else
-                    new UserController().Logout();
+                    new UserController(_httpContextAccessor,_cache).Logout();
 
                 ViewBag.CallToken = objAT.Token;
             }
@@ -146,7 +146,7 @@ namespace AdaniCall.Controllers
                     }
                 }
                 else
-                    new UserController().Logout();
+                    new UserController(_httpContextAccessor,_cache).Logout();
 
                 ViewBag.AcceptToken = objAT.Token;
                 ViewBag.AgentCallerID = CallerID;

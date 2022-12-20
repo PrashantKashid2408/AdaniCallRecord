@@ -33,7 +33,7 @@ namespace AdaniCall.Controllers
         LoginVM _loginVM = null;
         Helper _helper;
 
-        public UserController(IHttpContextAccessor httpContextAccessor = null, IMemoryCache cache = null)
+        public UserController(IHttpContextAccessor httpContextAccessor, IMemoryCache cache)
         {
             _httpContextAccessor = httpContextAccessor;
             _cache = cache;

@@ -2,26 +2,15 @@
 using Azure.Communication;
 using Azure.Communication.Identity;
 using Azure.Core;
-using System;
-using System.Collections.Generic;
+using Microsoft.Extensions.Configuration;
 using System.Configuration;
-using System.Linq;
-using System.Web;
 
 namespace AdaniCall.Models
 {
     public class TokenHelper
     {
-        private  IConfiguration _config;
-        public TokenHelper()
-        {
-            _config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-        }
-
         string endpoint = "https://callingdemo.communication.azure.com";
-
         string accessKey = "GRbNMjPMNqrjrLyMYJrmO4H8dlqwGvea9POVVRubbWuuMTahZ8aWK7eRSHK2v+7HFPokLk9RFZcOiZMPjlqtIg==";
-
         public AccessToken RefreshTokenAsync(string userCallID)
         {
             var client = new CommunicationIdentityClient(new Uri(endpoint), new AzureKeyCredential(accessKey));
