@@ -66,3 +66,4 @@ D:\AdaniCallRecord\AdaniCall.Resources\obj\Debug\net6.0\AdaniCall.Resources.dll
 D:\AdaniCallRecord\AdaniCall.Resources\obj\Debug\net6.0\refint\AdaniCall.Resources.dll
 D:\AdaniCallRecord\AdaniCall.Resources\obj\Debug\net6.0\AdaniCall.Resources.pdb
 D:\AdaniCallRecord\AdaniCall.Resources\obj\Debug\net6.0\ref\AdaniCall.Resources.dll
+D:\AdaniCallRecord\AdaniCall.Resources\obj\Debug\net6.0\de\AdaniCall.Resources.resources.cs
