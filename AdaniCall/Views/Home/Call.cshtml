@@ -49,20 +49,20 @@
     <script src="~/Scripts/plugins/bs4/bootstrap-dialog-custom-bs4.js"></script>
     <script src="~/Scripts/dist/js/demo.js"></script>
 
- 
-    @* <script>
-    $(document).ready(function () {
-    // for disabled right click
-    $(this).bind("contextmenu", function (e) {
-    e.preventDefault();
-    });
-    // for disabled browser back
-    window.history.pushState(null, "", window.location.href);
-    window.onpopstate = function () {
-    window.history.pushState(null, "", window.location.href);
-    };
 
-    });
+   @* <script>
+        $(document).ready(function () {
+            // for disabled right click
+            $(this).bind("contextmenu", function (e) {
+                e.preventDefault();
+            });
+            // for disabled browser back
+            window.history.pushState(null, "", window.location.href);
+            window.onpopstate = function () {
+                window.history.pushState(null, "", window.location.href);
+            };
+
+        });
     </script>*@
 </head>
 
@@ -77,14 +77,13 @@
         <div class="call-btnContainer">
             <div class="cust-container">
                 <div class="cust-container-p20">
-                    <!-- Logo WIth Title -->
+                    @*Logo WIth Title*@
                     <div class="cust-header">
-
                         <div class="cust-header-title">
                             <h1 class="titleH1">How may we help you?</h1>
                         </div>
                     </div>
-                    <!-- END Logo WIth Title -->
+                    @*END Logo WIth Title*@
                     <div class="clearfix"></div>
                     <div class="bubbles-bg-container">
                         <div>
@@ -93,16 +92,11 @@
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1920" preserveAspectRatio="xMinYMin meet">
 
                                     <image width="1080" height="1920" xlink:href="../../images/bubbles-bg.png" />
-
-
                                     <g class="infraFormulationsHoverGroup" opacity="1">
-                                        <a onclick="conversationCall()" class="infraformulationsimgclick" style="cursor:pointer">
-
+                                        <a onclick="conversationCall()" class="infraformulationsimgclick" style="pointer-events:none">
                                             <rect opacity="0" fill="#ffffff" rx="50%" y="720" x="293" width="445" height="445"></rect>
                                         </a>
                                     </g>
-
-
                                 </svg>
                             </figure>
                         </div>
@@ -112,8 +106,11 @@
             <div class="cust-footer custBGcolor" style="padding: 0px;">
                 <div class="cust-footer-container">
                     <div class="cust-footer-container-inner">
+                        <div class="fl">
+                            <span style="color: #000000; font-size: 12px; line-height: 29px; display: inline-block;">Version 1.0.1 | Updated Dec. 29, 2022 </span>
+                        </div>
                         <div class="fr">
-                            <div class="cust-footer-gophygital-logo" style="padding-top: 4; padding-bottom: 4px;"> <button class="links footerLink" style="border: 0px; background: none; color: #007bff !important; outline:0px;" onclick="tnc();">Terms And Conditions</button> </div>
+                            <div class="cust-footer-gophygital-logo" style="padding-top: 4px; padding-bottom: 4px;"> <button class="links footerLink" style="border: 0px; background: none; color: #007bff !important; outline:0px;" onclick="tnc();">Terms And Conditions</button> </div>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -122,8 +119,6 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        
-
         <div class="video_container_holder">
             <div class="video_container">
                 <div class="video_container_inner">
@@ -149,15 +144,38 @@
                        value=""
                        placeholder="Enter callee's ACS user identity in format: '8:acs:resourceId_userId'"
                        style="margin-bottom:1em; width: 500px; display: none;" />
+                <div class="video_button_container" style="display:none;">
+                    <ul class="btnlist">
+                        <li>
+                            <span>
+                                <button id="start-call-button" type="button" disabled="true" class="btn1  btn-disable" style="display:none;"><img src="~/images/button-icon/startcall_ic.svg" alt="startcall_ic.svg" /> Start call</button>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <button id="hangup-call-button" type="button" class="btn2" style="display:none;"><img src="~/images/button-icon/hangcall_ic.svg" alt="hangcall_ic.svg" /> Hang up</button>
+                                <button id="hdnhangup-call-button" type="button" style="visibility:hidden;height:0px; padding: 0px; border: 0px; line-height: 0px; position: absolute;"></button>
 
-                <button id="start-call-button" type="button"  class="btn1" style="visibility:hidden"><img src="~/images/button-icon/startcall_ic.svg" alt="startcall_ic.svg" /> Start call</button>
-                <button id="hangup-call-button" type="button" class="btn2" style="display:none;"><img src="~/images/button-icon/hangcall_ic.svg" alt="hangcall_ic.svg" /> Hang up</button>
-                <button id="hdnhangup-call-button" type="button" style="visibility:hidden;height:0px; padding: 0px; border: 0px; line-height: 0px; position: absolute;"></button>
-
-                <button id="accept-call-button" type="button" class="btn3" style="display:none"><img src="~/images/button-icon/acceptcall_ic.svg" alt="acceptcall_ic.svg" /> Accept</button>
-                <button id="start-video-button" type="button" class="btn4" style="display:none"><img src="~/images/button-icon/start_video_ic.svg" alt="start_video_ic.svg" /> Start video</button>
-                <button id="stop-video-button" type="button" class="btn5" style="display:none"><img src="~/images/button-icon/stopvideo_ic.svg" alt="stopvideo_ic.svg" /> Stop video</button>
-
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <button id="accept-call-button" type="button" class="btn3" style="display:none"><img src="~/images/button-icon/acceptcall_ic.svg" alt="acceptcall_ic.svg" /> Accept</button>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <button id="start-video-button" type="button" class="btn4" style="display:none"><img src="~/images/button-icon/start_video_ic.svg" alt="start_video_ic.svg" /> Start video</button>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <button id="stop-video-button" type="button" class="btn5" style="display:none"><img src="~/images/button-icon/stopvideo_ic.svg" alt="stopvideo_ic.svg" /> Stop video</button>
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
                 <div id="connectedLabel" style="color: #13bb13;" hidden>Call is connected!</div>
                 <div id="localVideoContainer" style="width: 30%;" hidden>Local video stream:</div>
                 <!-- points to the bundle generated from client.js -->
@@ -205,6 +223,13 @@
     </script>
     <script>
         $("#initialize-call-agent").click();
+    </script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $(".infraformulationsimgclick").removeAttr("style");
+            }, 7000);
+        });
     </script>
 </body>
 </html>

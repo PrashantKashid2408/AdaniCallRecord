@@ -13,6 +13,7 @@ using System.Net;
 using AdaniCall.Business.BusinessFacade;
 using AdaniCall.Business.DataAccess.Constants;
 using static AdaniCall.Models.CommonData;
+using Microsoft.Extensions.Logging;
 
 namespace AdaniCall.Controllers
 {
@@ -49,13 +50,15 @@ namespace AdaniCall.Controllers
             {
                 string serverCallId = objRecordParams.sCallID.ToString();
                 string uniqueCallID = objRecordParams.UniqueCallID.ToString();
+                Console.WriteLine("SERVERCALLID: " + serverCallId + "UNIQUECALLID: " + uniqueCallID);
                 if (!string.IsNullOrEmpty(serverCallId))
                 {
                     var uri = new Uri(callbackUri);
                     StartRecordingOptions recordingOptions = new StartRecordingOptions(new ServerCallLocator(serverCallId));
                     var startRecordingResponse = await callAutomationClient.GetCallRecording()
                         .StartRecordingAsync(recordingOptions).ConfigureAwait(false);
-                    Logger.LogInformation($"StartRecordingAsync response -- >  {startRecordingResponse.GetRawResponse()}, Recording Id: {startRecordingResponse.Value.RecordingId}");
+                    Logger.LogInformation("BLOBSTORAGECONNECTIONSTRING :   " + blobStorageConnectionString+"   " + "CONTAINERNAME: " + containerName+" " + "CALLAUTOMATIONCLIENT: " + callAutomationClient+"   "+ "CALLBACKURI: "+ callbackUri+"  "+ "ROOTPATH: "+ RootPath);
+                   Logger.LogInformation($"StartRecordingAsync response -- >  {startRecordingResponse.GetRawResponse()}, Recording Id: {startRecordingResponse.Value.RecordingId}");
 
                     var recordingId = startRecordingResponse.Value.RecordingId;
                     if (!recordingData.ContainsKey(serverCallId))
@@ -95,15 +98,14 @@ namespace AdaniCall.Controllers
         {
             try
             {
-                string output = JsonConvert.SerializeObject(request);
                 var httpContent = new BinaryData(request.ToString()).ToStream();
-                //  EventGridEvent cloudEvent = EventGridEvent.ParseMany(BinaryData.FromStream(httpContent)).FirstOrDefault();
-                EventGridEvent cloudEvent = EventGridEvent.ParseMany(await BinaryData.FromStreamAsync(httpContent)).FirstOrDefault();
+                EventGridEvent cloudEvent = EventGridEvent.ParseMany(BinaryData.FromStream(httpContent)).FirstOrDefault();
+
                 if (cloudEvent.EventType == SystemEventNames.EventGridSubscriptionValidation)
                 {
                     var eventData = cloudEvent.Data.ToObjectFromJson<SubscriptionValidationEventData>();
 
-                    //    Logger.LogInformation("Microsoft.EventGrid.SubscriptionValidationEvent response  -- >" + cloudEvent.Data);
+                    Logger.LogInformation("Microsoft.EventGrid.SubscriptionValidationEvent response  -- >" + cloudEvent.Data);
 
                     var responseData = new SubscriptionValidationResponse
                     {
@@ -118,20 +120,20 @@ namespace AdaniCall.Controllers
 
                 if (cloudEvent.EventType == SystemEventNames.AcsRecordingFileStatusUpdated)
                 {
-                    //Logger.LogInformation($"Event type is -- > {cloudEvent.EventType}");
+                    Logger.LogInformation($"Event type is -- > {cloudEvent.EventType}");
 
-                    // Logger.LogInformation("Microsoft.Communication.RecordingFileStatusUpdated response  -- >" + cloudEvent.Data);
+                    Logger.LogInformation("Microsoft.Communication.RecordingFileStatusUpdated response  -- >" + cloudEvent.Data);
 
                     var eventData = cloudEvent.Data.ToObjectFromJson<AcsRecordingFileStatusUpdatedEventData>();
 
-                    //   Logger.LogInformation("Start processing metadata -- >");
+                    Logger.LogInformation("Start processing metadata -- >");
 
                     await ProcessFile(eventData.RecordingStorageInfo.RecordingChunks[0].MetadataLocation,
                         eventData.RecordingStorageInfo.RecordingChunks[0].DocumentId,
                         FileFormat.Json,
                         FileDownloadType.Metadata);
 
-                    //   Logger.LogInformation("Start processing recorded media -- >");
+                    Logger.LogInformation("Start processing recorded media -- >");
 
                     await ProcessFile(eventData.RecordingStorageInfo.RecordingChunks[0].ContentLocation,
                         eventData.RecordingStorageInfo.RecordingChunks[0].DocumentId,
@@ -144,9 +146,66 @@ namespace AdaniCall.Controllers
             catch (Exception ex)
             {
                 Log.WriteLog(_module, "GetRecordingFile()", "Source " + ex.Source + ",Message:" + ex.Message, ex.StackTrace);
-                return Json(new { Exception = ex });
+                      return Json(new { Exception = ex });
             }
         }
+
+        //public async Task<ActionResult> GetRecordingFile([FromBody] object request)
+        //{
+        //    try
+        //    {
+        //        string output = JsonConvert.SerializeObject(request);
+        //        var httpContent = new BinaryData(request.ToString()).ToStream();
+        //       // EventGridEvent cloudEvent = EventGridEvent.ParseMany(BinaryData.FromStream(httpContent)).FirstOrDefault();
+        //        EventGridEvent cloudEvent = EventGridEvent.ParseMany(await BinaryData.FromStreamAsync(httpContent)).FirstOrDefault();
+        //        if (cloudEvent.EventType == SystemEventNames.EventGridSubscriptionValidation)
+        //        {
+        //            var eventData = cloudEvent.Data.ToObjectFromJson<SubscriptionValidationEventData>();
+
+        //            //    Logger.LogInformation("Microsoft.EventGrid.SubscriptionValidationEvent response  -- >" + cloudEvent.Data);
+
+        //            var responseData = new SubscriptionValidationResponse
+        //            {
+        //                ValidationResponse = eventData.ValidationCode
+        //            };
+
+        //            if (responseData.ValidationResponse != null)
+        //            {
+        //                return Ok(responseData);
+        //            }
+        //        }
+
+        //        if (cloudEvent.EventType == SystemEventNames.AcsRecordingFileStatusUpdated)
+        //        {
+        //            //Logger.LogInformation($"Event type is -- > {cloudEvent.EventType}");
+
+        //            // Logger.LogInformation("Microsoft.Communication.RecordingFileStatusUpdated response  -- >" + cloudEvent.Data);
+
+        //            var eventData = cloudEvent.Data.ToObjectFromJson<AcsRecordingFileStatusUpdatedEventData>();
+
+        //            //   Logger.LogInformation("Start processing metadata -- >");
+
+        //            await ProcessFile(eventData.RecordingStorageInfo.RecordingChunks[0].MetadataLocation,
+        //                eventData.RecordingStorageInfo.RecordingChunks[0].DocumentId,
+        //                FileFormat.Json,
+        //                FileDownloadType.Metadata);
+
+        //            //   Logger.LogInformation("Start processing recorded media -- >");
+
+        //            await ProcessFile(eventData.RecordingStorageInfo.RecordingChunks[0].ContentLocation,
+        //                eventData.RecordingStorageInfo.RecordingChunks[0].DocumentId,
+        //                string.IsNullOrWhiteSpace(recFileFormat) ? FileFormat.Mp4 : recFileFormat,
+        //                FileDownloadType.Recording);
+        //        }
+
+        //        return Ok();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Log.WriteLog(_module, "GetRecordingFile()", "Source " + ex.Source + ",Message:" + ex.Message, ex.StackTrace);
+        //        return Json(new { Exception = ex });
+        //    }
+        //}
 
         private async Task<bool> ProcessFile(string downloadLocation, string documentId, string fileFormat, string downloadType)
         {

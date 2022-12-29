@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mZAGpCjP9kw4P1Qqd85bU2b55RQtVy8QgaJP3bir8iI=",
+  "Hash": "6/RIkHJOS9H/ZuJOpEG6DcvFnN/is2mIc86XCvaFI/o=",
   "Source": "AdaniCall",
   "BasePath": "_content/AdaniCall",
   "Mode": "Default",
@@ -3585,6 +3585,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\transport\\Thumbs.db"
+    },
+    {
+      "Identity": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\js\\bundle.js",
+      "SourceId": "AdaniCall",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\",
+      "BasePath": "_content/AdaniCall",
+      "RelativePath": "js/bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bundle.js"
     },
     {
       "Identity": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\js\\camvas.js",

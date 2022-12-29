@@ -242,6 +242,9 @@ video {width: 100%;}
     width: 100%;
     margin: 5px auto 0px auto;
 }
+.infraformulationsimgclick {
+	cursor: pointer;
+}
 .video_button_container ul.btnlist {	
 	width: 100%;
     /*display: flex;

@@ -50,10 +50,10 @@ function GetAvailableAgent(txt) {
             async: false,
             success: function (data) {
                 //removeLoader("#divLoader");
-                if (data.Data.ID > 0) {
+                if (data.data.id > 0) {
                     $("#callee-acs-user-id").val(data.Data.AgentCallID)
                 }
-                else if (data.Data.ID == -1) {
+                else if (data.data.id == -1) {
                     //showBSAlertNonClosable(__infoCaption, "All the customer care agents are busy at the moment. Please try after some time. Sorry for the inconvenience.", __WARNING);
                     ShowConnectingMsg(txt + ' no one');
                     $("#callee-acs-user-id").val("")
@@ -95,7 +95,7 @@ function GetKioskDetails(callerID) {
             async: true,
             success: function (data) {
                 //removeLoader("#divLoader");
-                if (data.Data.ID > 0) {
+                if (data.data.id > 0) {
                     //alert(data.Data.DeviceName)
                     $("#lblKioskName").text(data.Data.DeviceName)
                     $("#lblKioskName").show();
@@ -532,10 +532,10 @@ function CheckRefreshNeeded() {
             cache: false,
             async: false,
             success: function (data) {
-                if (data.Data.ID == 1) {
+                if (data.data.id == 1) {
                     window.location.reload();
                 }
-                console.log("this is CheckRefreshNeeded value:" + data.Data.ID)
+                console.log("this is CheckRefreshNeeded value:" + data.data.id)
             },
             complete: function () {
                 setTimeout(function () {

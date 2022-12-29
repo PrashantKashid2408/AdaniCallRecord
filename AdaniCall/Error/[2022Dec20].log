@@ -1,0 +1,49 @@
+LogTime : 7:20:39 PM 
+Module Name : DataAccess.Transaction (ExecuteTransaction)
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:20:40 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\AdaniCallRecord\AdaniCall\bin\Debug\net6.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:21:52 PM 
+Module Name : AdaniCall.Controllers.CallRecordingsController (StartRecordingAsync(sCallID=aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWtyY2UtMDkuY29udi5za3lwZS5jb20vY29udi9nSk5lYzZCeGRrMlZBZVpBb0J1TkhBP2k9OCZlPTYzODA1NzczNDc4NDk5MTcyNQ,recordingFormat:))
+
+Error Source : Azure.Communication.CallAutomation
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+Repeatability-Result: REDACTED
+x-ms-client-request-id: 21121909-91f1-4c49-a121-5c9cebc1ff90
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Tue, 20 Dec 2022 13:51:15 GMT
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+
+ 
+ 
+ 
+======================================== 
+ 

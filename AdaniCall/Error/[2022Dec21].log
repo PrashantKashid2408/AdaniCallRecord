@@ -1,0 +1,34 @@
+LogTime : 6:54:33 PM 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (Authenticate(username=kioskthree@wits.bzPassword=H9OnU3/l70vm3fCBc8lTFw==))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+ 
+Error Message GetMethod FullName : OnError
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:54:59 PM 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (ChangeAvailabilityStatus(ID=17, StatusID=2,AgentCallerID=))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ 
+Error Message GetMethod FullName : CheckPoolBlockingPeriod
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 

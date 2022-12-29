@@ -1137,6 +1137,10 @@
       "PackagePath": "staticwebassets\\images\\transport\\pre-paid-taxi.jpg"
     },
     {
+      "Id": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\js\\bundle.js",
+      "PackagePath": "staticwebassets\\js\\bundle.js"
+    },
+    {
       "Id": "D:\\AdaniCallRecord\\AdaniCall\\wwwroot\\js\\camvas.js",
       "PackagePath": "staticwebassets\\js\\camvas.js"
     },

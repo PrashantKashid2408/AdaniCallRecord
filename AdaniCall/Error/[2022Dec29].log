@@ -1,0 +1,56 @@
+LogTime : 7:48:09 PM 
+Module Name : AdaniCall.Controllers.UserController (InsertAM(UniqueCallID:,UserID:27,CallStatus=))
+
+Error Source : AdaniCall
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:48:25 PM 
+Module Name : AdaniCall.Controllers.CallRecordingsController (StartRecordingAsync(sCallID=,recordingFormat:))
+
+Error Source : AdaniCall
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:48:26 PM 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.KioskMaster (GetKioskDetails(TravellerCallerID:))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : A connection was successfully established with the server, but then an error occurred during the login process. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ 
+Error Message GetMethod FullName : CheckPoolBlockingPeriod
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:50:43 PM 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (ChangeAvailabilityStatus(ID=27, StatusID=,AgentCallerID=))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Procedure or function 'Users_UpdateAvailability' expects parameter '@StatusID', which was not supplied.
+ 
+Error Message GetMethod FullName : OnError
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 

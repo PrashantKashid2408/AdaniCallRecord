@@ -2,19 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-//using System.Configuration;
 using Microsoft.AspNetCore.Mvc;
 using AdaniCall.Entity;
 using AdaniCall.Models;
 using Microsoft.Extensions.Caching.Memory;
-//using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using AdaniCall.Entity.Enums;
 using AdaniCall.Entity.Common;
 using AdaniCall.Resources;
 using AdaniCall.Business.BusinessFacade;
-//using Newtonsoft.Json.Linq;
 using AdaniCall.Utility.Common;
-//using System.Net.Http.Headers;
+
 
 
 namespace AdaniCall.Controllers
@@ -156,23 +154,27 @@ namespace AdaniCall.Controllers
 
         private void UserLogOut()
         {
-            ClearCache();//Delete the user details from cache.
-            _session.Clear();//Session.Abandon();
-
-            if (Request.Cookies["LoginData"] != null)
+            try
             {
-                Response.Cookies.Delete("LoginData");
-                //  Response.Cookies["LoginData"].Expires = DateTime.Now.AddDays(-1);
+                ClearCache();//Delete the user details from cache.
+                _httpContextAccessor.HttpContext.Session.Clear();
+
+                if (_httpContextAccessor.HttpContext.Request.Cookies["LoginData"] != null)
+                {
+                    Response.Cookies.Delete("LoginData");
+                }
+                if (_httpContextAccessor.HttpContext.Request.Cookies["UserLanguage"] != null)
+                {
+                    Response.Cookies.Delete("UserLanguage");
+                }
+
             }
-            if (Request.Cookies["UserLanguage"] != null)
+            catch (Exception ex)
             {
-                Response.Cookies.Delete("UserLanguage");
-                //  Response.Cookies["UserLanguage"].Expires = DateTime.Now.AddDays(-1);
+                Log.WriteLog(_module, "UserLogOut()", ex.Source, ex.Message, ex);
             }
 
-            // FormsAuthentication.SignOut(); //Delete the authentication ticket and sign out.
-            Response.Cookies.Delete("AGCXWebLoginUser");
-            //CookieStore.RemoveCookie("AGCXWebLoginUser");
+            //FormsAuthentication.SignOut(); //Delete the authentication ticket and sign out.
         }
 
         private void ClearCache()
@@ -442,7 +444,7 @@ namespace AdaniCall.Controllers
             // var cookie = HttpContext.Current.Request.Cookies[key];
             var cookie = _httpContextAccessor.HttpContext.Request.Cookies[key];
             if (cookie != null)
-                culture = cookie;
+                culture = cookie.ToString();
             if (!string.IsNullOrWhiteSpace(culture))
             {
                 var encription = new AdaniCall.Utility.Common.Encription();
@@ -452,11 +454,11 @@ namespace AdaniCall.Controllers
         }
         private void SetEncryptedCookieKey(string key, string value, TimeSpan expires)
         {
-            var httpContext = _httpContextAccessor.HttpContext;
+            //var httpContext = _httpContextAccessor.HttpContext;
             var encription = new AdaniCall.Utility.Common.Encription();
             value = encription.Encrypt(value);
 
-            if (httpContext.Response.Cookies != null)
+            if (_httpContextAccessor.HttpContext.Request.Cookies[key] != null)
             {
                 CookieOptions cookieOld = new CookieOptions();
                 cookieOld.Expires = DateTime.MaxValue;

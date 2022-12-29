@@ -1,0 +1,66 @@
+LogTime : 11:46:29 AM 
+Module Name : AdaniCall.Controllers.UserController (Logout())
+
+Error Source : AdaniCall
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : UserLogOut
+ 
+Error Message GetFileName : UserController.cs
+ 
+Error Message GetFileLineNumber : 162
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:05:19 PM 
+Module Name : DataAccess.Transaction (ExecuteTransaction)
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:05:21 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\AdaniCallRecord\AdaniCall\bin\Debug\net6.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:22:50 PM 
+Module Name : AdaniCall.Controllers.CallRecordingsController (StartRecordingAsync(sCallID=aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWtyY2UtMDYuY29udi5za3lwZS5jb20vY29udi9iQ0RRQ1ViR1RFR004c0tUOHlZWUJnP2k9OCZlPTYzODA1NzczNDcwNjQ1NjkwNA,recordingFormat:))
+
+Error Source : Azure.Communication.CallAutomation
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+Repeatability-Result: REDACTED
+x-ms-client-request-id: ea617d27-d2f8-4b26-99a6-f43f13269ef5
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Thu, 22 Dec 2022 11:52:49 GMT
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+
+ 
+ 
+ 
+======================================== 
+ 

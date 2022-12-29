@@ -1,0 +1,68 @@
+LogTime : 6:55:06 PM 
+Module Name : AdaniCall.Controllers.AssessmentsController (GetList(query=sortColumn=,sortOrder=asc,page=1,size=10, flag=sort))
+
+Error Source : AdaniCall
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : GetList
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:56:24 PM 
+Module Name : AdaniCall.Controllers.TransactionsController (GetList(query=sortColumn=,sortOrder=,page=0,size=0, flag=))
+
+Error Source : Microsoft.Extensions.Caching.Abstractions
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : Get
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:56:34 PM 
+Module Name : AdaniCall.Controllers.TransactionsController (GetList(query=sortColumn=,sortOrder=,page=0,size=0, flag=))
+
+Error Source : Microsoft.Extensions.Caching.Abstractions
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : Get
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:01:55 PM 
+Module Name : AdaniCall.Controllers.AssessmentsController (GetList(query=sortColumn=,sortOrder=asc,page=1,size=10, flag=sort))
+
+Error Source : AdaniCall
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : GetList
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
