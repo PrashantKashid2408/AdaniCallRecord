@@ -9,173 +9,173 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AdaniCall
 build_property.RootNamespace = AdaniCall
-build_property.ProjectDir = d:\AdaniCallRecord\AdaniCall\
+build_property.ProjectDir = D:\AdaniCallRecord\AdaniCall\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\AdaniCallRecord\AdaniCall
+build_property.MSBuildProjectDirectory = D:\AdaniCallRecord\AdaniCall
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Assessments/List.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Assessments/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Assessments/_List.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Assessments/_List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcX0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Assessments/_ListPartial.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Assessments/_ListPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcX0xpc3RQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Home/Accept.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Home/Accept.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NlcHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Home/Call.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Home/Call.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServices.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServices.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xBaXJwb3J0U2VydmljZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesAirportEntryTicket.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesAirportEntryTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xBaXJwb3J0U2VydmljZXNBaXJwb3J0RW50cnlUaWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesBaggageWrapping.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesBaggageWrapping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xBaXJwb3J0U2VydmljZXNCYWdnYWdlV3JhcHBpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesLostAndFound.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesLostAndFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xBaXJwb3J0U2VydmljZXNMb3N0QW5kRm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesOther.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesOther.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xBaXJwb3J0U2VydmljZXNPdGhlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesPranaamMeetAndGreetService.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/AirportServicesPranaamMeetAndGreetService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xBaXJwb3J0U2VydmljZXNQcmFuYWFtTWVldEFuZEdyZWV0U2VydmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/AtTheAirport.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/AtTheAirport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xBdFRoZUFpcnBvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/Baggage.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/Baggage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xCYWdnYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/EmergencyContacts.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/EmergencyContacts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xFbWVyZ2VuY3lDb250YWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/GettingToAndFromAirport.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/GettingToAndFromAirport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xHZXR0aW5nVG9BbmRGcm9tQWlycG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/Index-18thMay2022.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/Index-18thMay2022.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xJbmRleC0xOHRoTWF5MjAyMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/Index.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/SecurityCheckpoint.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/SecurityCheckpoint.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xTZWN1cml0eUNoZWNrcG9pbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDine.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDine.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xTaG9wQW5kRGluZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDineDutyFreeAndShopping.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDineDutyFreeAndShopping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xTaG9wQW5kRGluZUR1dHlGcmVlQW5kU2hvcHBpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDineRelax.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDineRelax.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xTaG9wQW5kRGluZVJlbGF4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDineRestaurantsDine.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDineRestaurantsDine.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xTaG9wQW5kRGluZVJlc3RhdXJhbnRzRGluZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDineSmokingLounge.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/ShopAndDineSmokingLounge.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xTaG9wQW5kRGluZVNtb2tpbmdMb3VuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/Transport.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/Transport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xUcmFuc3BvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Landing/TravelingWithChildren.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Landing/TravelingWithChildren.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xUcmF2ZWxpbmdXaXRoQ2hpbGRyZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Opinion/List.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Opinion/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvblxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Opinion/_List.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Opinion/_List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvblxfTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Opinion/_ListPartial.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Opinion/_ListPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvblxfTGlzdFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Shared/Error.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Shared/_LayoutAdmin.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Shared/_LayoutLandings.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Shared/_LayoutLandings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMYW5kaW5ncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Transactions/GetAnalysis.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Transactions/GetAnalysis.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEdldEFuYWx5c2lzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Transactions/List.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Transactions/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Transactions/_Analysis.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Transactions/_Analysis.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXF9BbmFseXNpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Transactions/_List.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Transactions/_List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXF9MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Transactions/_ListPartial.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Transactions/_ListPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXF9MaXN0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/User/Login.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/_ViewImports.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/_ViewStart.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/AdaniCallRecord/AdaniCall/Views/Shared/_Layout.cshtml]
+[D:/AdaniCallRecord/AdaniCall/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-96fu6qxdum

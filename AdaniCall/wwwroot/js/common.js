@@ -13,9 +13,9 @@ function StartRecording(uniqueCallID, serverid) {
                 contentType: "application/x-www-form-urlencoded",
                 dataType: "json",
                 data: {
-                    sCallId: serverid,
-                    recordingFormat: "",
-                    UniqueCallID: uniqueCallID,
+                    "sCallId": serverid,
+                    "recordingFormat": "",
+                    "UniqueCallID": uniqueCallID,
                 }, success: function (data) {
                 }
             });
@@ -46,8 +46,7 @@ function GetAvailableAgent(txt) {
                 }
             },
             complete: function () {
-                setTimeout(function () {
-                   
+                setTimeout(function () {        
                 }, 300);
             },
             error: function (xhr, ajaxOptions, thrownError) {
@@ -66,12 +65,12 @@ function GetKioskDetails(callerID) {
             type: "POST",
             contentType: "application/x-www-form-urlencoded",
             dataType: "json",
-            data: { TravellerCallerID: callerID },
+            data: { "TravellerCallerID": callerID },
             cache: false,
             async: true,
             success: function (data) {
                if (data.data.id > 0) {
-                    $("#lblKioskName").text(data.data.DeviceName)
+                    $("#lblKioskName").text(data.data.deviceName)
                     $("#lblKioskName").show();
                 }
                 else {
@@ -98,7 +97,7 @@ function FreeAgent(agentCallerID, frm) {
             type: "POST",
             contentType: "application/x-www-form-urlencoded",
             dataType: "json",
-            data: { AvailabilityStatus: "1" },
+            data: { "AvailabilityStatus": "1" },
             cache: false,
             async: false,
             success: function (data) {
@@ -120,7 +119,7 @@ function FreeAgent(agentCallerID, frm) {
             type: "POST",
             contentType: "application/x-www-form-urlencoded",
             dataType: "json",
-            data: { AvailabilityStatus: "1", AgentCallerID: agentCallerID },
+            data: { "AvailabilityStatus": "1", "AgentCallerID": agentCallerID },
             cache: false,
             async: false,
             success: function (data) {
@@ -145,10 +144,11 @@ function MakeCallTransaction(uniqueCallID, incomingCallID) {
             type: "POST",
             contentType: "application/x-www-form-urlencoded",
             dataType: "json",
-            data: { UniqueCallID: uniqueCallID, IncomingCallID: incomingCallID },
+            data: { "UniqueCallID": uniqueCallID, "IncomingCallID": incomingCallID },
             cache: false,
             async: true,
             success: function (data) {
+               // alert("uniqueCallID: " + uniqueCallID + "incomingCallID: " + incomingCallID)
             },
             complete: function () {
                 setTimeout(function () {
@@ -172,7 +172,7 @@ function UpdateCallTransactionsEndTime(uniqueCallID) {
             type: "POST",
             contentType: "application/x-www-form-urlencoded",
             dataType: "json",
-            data: { UniqueCallID: uniqueCallID, CallLanguage: callLanguage },
+            data: { "UniqueCallID": uniqueCallID, "CallLanguage": callLanguage },
             cache: false,
             async: true,
             success: function (data) {
@@ -195,7 +195,7 @@ function InsertAccessMember(uniqueCallID, callStatus) {
         type: "POST",
         contentType: "application/x-www-form-urlencoded",
         dataType: "json",
-        data: { UniqueCallID: uniqueCallID, CallStatus: callStatus },
+        data: { "UniqueCallID": uniqueCallID, "CallStatus": callStatus },
         cache: false,
         async: true,
         success: function (data) {
@@ -590,7 +590,7 @@ function tnc() {
             html += '           <h1 class="title">Use of Personal data</h1>';
             html += '           <p>';
             html += '               Airport Operator and/ or its affiliates shall use the Personal data for purposes described in the Terms herein. The Personal data may be inter alia used to:',
-                html += '               <ul class="listDisc">';
+            html += '               <ul class="listDisc">';
             html += '                   <li>provide and deliver services, including securing, troubleshooting, improving, and personalizing its products and services;</li>';
             html += '                   <li>operate and improve its business, including internal operations and security systems;</li>';
             html += '                   <li>understand User and his/ her preferences for enhancing User experience using Digital Screens;</li>';

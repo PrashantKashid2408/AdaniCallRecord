@@ -28,9 +28,10 @@ namespace AdaniCall.Controllers
         string _cacheKey = "Assessments_";
 
         JsonMessage _jsonMessage = null;
-        public AssessmentsController(IHttpContextAccessor httpContextAccessor)
+        public AssessmentsController(IHttpContextAccessor httpContextAccessor, IMemoryCache cache)
         {
             _httpContextAccessor = httpContextAccessor;
+            _cache = cache;
         }
 
 
@@ -76,8 +77,9 @@ namespace AdaniCall.Controllers
 
                     SentenceAssessmentsBusinessFacade objBusinessFacade = new SentenceAssessmentsBusinessFacade();
                     _list = objBusinessFacade.GetSentenceAssessments(UserID, ListType, query);
-
                     _cache.CreateEntry(_cacheKey);
+                    //  HttpContext.Cache.Insert(_cacheKey, _list, null, System.Web.Caching.Cache.NoAbsoluteExpiration, TimeSpan.FromMinutes(10));
+
                 }
                 else
                     _list = (List<SentenceAssessments>)_cache.Get(_cacheKey);

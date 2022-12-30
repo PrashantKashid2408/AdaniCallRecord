@@ -41,9 +41,9 @@ var loginSocial = {
                             $(".modal-content").attr('class', 'modal-content box');
                             $.ajax({
                                 url: '/User/ForgotPassword',
-                                data: JSON.stringify({ username: $.trim($("#txtUsername").val()) }),
+                                data: { "username": $.trim($("#txtUsername").val()) },
                                 type: "POST",
-                                contentType: "application/json; charset=utf-8",
+                                contentType: "application/x-www-form-urlencoded",
                                 dataType: "json",
                                 success: function (result) {
                                     removeLoader("#divForgotPwd");
@@ -107,11 +107,6 @@ function SubmitLogin() {
         $("#divLoginMsg > div.alert").remove();
         $("#divLoginMsg").prepend(getAlert(__msglogRegEmailAddressRequired, "danger", false));
     }
-    //else if ((!emailOnly(username)))
-    //{
-    //    $("#divLoginMsg > div.alert").remove();
-    //    $("#divLoginMsg").prepend(getAlert(__invalidEmail, "danger", false));
-    //}
     else if ($("#txtPassword").val().trim() == "") {
         $("#divLoginMsg > div.alert").remove();
         $("#divLoginMsg").prepend(getAlert(__msglogRegPassword, "danger", false));

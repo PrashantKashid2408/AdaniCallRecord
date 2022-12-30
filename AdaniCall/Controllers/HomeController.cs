@@ -20,7 +20,6 @@ using AdaniCall.Controllers;
 
 namespace AdaniCall.Controllers
 {
-   // [Localisation]
     public class HomeController : Controller
     {
         TokenHelper objTokenHelper = new TokenHelper();
@@ -42,7 +41,6 @@ namespace AdaniCall.Controllers
         {
             return View();
         }
-            // [CustomAuthorizeAttribute(false, Roles = RoleEnums.Kiosk)]
             public ActionResult Call()
         {
             string _cacheKey = "CallToken_" + _session.Id;

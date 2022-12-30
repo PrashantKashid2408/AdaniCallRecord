@@ -1,0 +1,106 @@
+LogTime : 2:00:49 PM 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.KioskMaster (GetKioskDetails(TravellerCallerID:8:acs:34742d4f-3d52-49ac-a408-01eb5314cc4e_00000015-fdd3-3956-aa60-c93a0d002199))
+
+Error Source : System.Data.SqlClient
+ 
+Error Message : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+ 
+Error Message GetMethod FullName : TryGetConnection
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:00:51 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\AdaniCallRecord\AdaniCall\bin\Debug\net6.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:00:52 PM 
+Module Name : AdaniCall.Controllers.CallRecordingsController (StartRecordingAsync(sCallID=aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWtyY2UtMDcuY29udi5za3lwZS5jb20vY29udi9JU1hjclk1R1BVcXdIZDMyNkRqWHFnP2k9MTQmZT02MzgwNTc3MDc5NTQxMjAyMTU,recordingFormat:))
+
+Error Source : Azure.Communication.CallAutomation
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+Repeatability-Result: REDACTED
+x-ms-client-request-id: d1bf9227-8a51-4a37-ac31-e7017e656d97
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Date: Fri, 30 Dec 2022 08:30:52 GMT
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:13:18 PM 
+Module Name : AdaniCall.Controllers.AssessmentsController (GetList(query=sortColumn=,sortOrder=asc,page=1,size=10, flag=sort))
+
+Error Source : AdaniCall
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : GetList
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:37:33 PM 
+Module Name : AdaniCall.Controllers.AssessmentsController (GetList(query=sortColumn=,sortOrder=asc,page=1,size=10, flag=sort))
+
+Error Source : Microsoft.Extensions.Caching.Abstractions
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : Set
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:37:34 PM 
+Module Name : AdaniCall.Controllers.AssessmentsController (GetList(query=sortColumn=,sortOrder=asc,page=1,size=10, flag=sort))
+
+Error Source : Microsoft.Extensions.Caching.Abstractions
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : Set
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
